@@ -9,6 +9,7 @@
 ![Examples: 3](https://img.shields.io/badge/Examples-3-purple)
 ![Skills: 7](https://img.shields.io/badge/Skills-7-orange)
 ![LLM Wiki: 8 files](https://img.shields.io/badge/LLM_Wiki-8%20files-red)
+[![X (Twitter)](https://img.shields.io/badge/X-%40mdayan24X-1DA1F2?logo=x&logoColor=white)](https://x.com/mdayan24X)
 
 > **This repo documents a discipline that is approximately two weeks old as of mid-June 2026.** See [HONESTY.md](HONESTY.md) for transparency about the field's age, claim classification, and limitations.
 
@@ -402,6 +403,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Contributions of corrections, real-world
 ## License
 
 [MIT](LICENSE)
+
+---
+
+## Connect
+
+- **X (Twitter):** [@mdayan24X](https://x.com/mdayan24X)
+- **GitHub:** [mdayan8](https://github.com/mdayan8)
 
 ---
 
