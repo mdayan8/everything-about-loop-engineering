@@ -1,0 +1,23 @@
+name: Hello Loop
+on:
+  schedule:
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Run hello loop
+        run: |
+          claude --prompt-file prompt.md --state-file STATE.md --max-turns 5
+
+      - name: Upload report
+        uses: actions/upload-artifact@v4
+        with:
+          name: hello-loop-report-${{ github.run_id }}
+          path: reports/hello-loop-report.md
