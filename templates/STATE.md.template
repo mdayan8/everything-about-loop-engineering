@@ -1,0 +1,39 @@
+# Loop State: [LOOP NAME]
+
+> This file persists information across agent runs. The agent reads this at the start of each run and updates it at the end.
+
+---
+
+## Tried
+
+<!-- What approaches have been attempted? What was the result? -->
+
+- (none yet — first run)
+
+## Passed
+
+<!-- What has been verified as working? What's confirmed correct? -->
+
+- (none yet — first run)
+
+## Still Open
+
+<!-- What remains to be done? What's the next action? -->
+
+- [ ] [First task or question]
+
+## Last Run Timestamp
+
+- Never (awaiting first run)
+
+## Run History
+
+<!-- Brief log of each run. One line per run. -->
+
+| Run | Timestamp | What Happened | Result |
+|-----|-----------|---------------|--------|
+| 1 | — | Awaiting first run | — |
+
+## Notes
+
+<!-- Anything the agent should remember between runs. Patterns noticed, context learned, decisions made. -->

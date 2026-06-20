@@ -1,0 +1,98 @@
+# Sub-Agent Definition: [NAME]
+
+> A maker/checker pair definition template. Fill in the fields for your specific use case.
+
+---
+
+## Maker Agent
+
+```toml
+name = "[maker-agent-name]"
+description = "[One sentence: what this agent does]"
+
+instructions = """
+[Detailed instructions for the maker agent. Include:
+- What the agent should do
+- What files to read and write
+- What rules to follow
+- What "done" looks like]
+"""
+
+model = "[model name, e.g., claude-sonnet, gpt-4o]"
+effort = "[low, medium, high]"
+worktree = [true, false]
+branch_prefix = "[branch prefix for worktree, e.g., loop/maker]"
+max_turns = [number]
+```
+
+---
+
+## Checker Agent
+
+```toml
+name = "[checker-agent-name]"
+description = "[One sentence: what this agent verifies]"
+
+instructions = """
+[Detailed instructions for the checker agent. Include:
+- What to verify
+- What "pass" and "fail" look like
+- What specific checks to perform
+- How to report findings]
+
+Example instructions:
+"""
+# Example:
+# You are a verification agent. Your ONLY job is to check whether 
+# the maker agent's output is correct. Do not make changes.
+# 
+# Verify:
+# 1. Does the output meet the stated requirements?
+# 2. Are there any errors or issues?
+# 3. Is the output complete?
+#
+# Respond with exactly: PASS or FAIL
+# Followed by a one-sentence explanation.
+
+model = "[model name — typically smaller/faster than the maker]"
+effort = "[low, medium, high]"
+worktree = [true, false]
+max_turns = [number]
+```
+
+---
+
+## Loop Configuration
+
+```toml
+[loop]
+name = "[loop name]"
+description = "[One sentence: what this loop accomplishes]"
+
+[schedule]
+cron = "[cron expression, e.g., 0 9 * * *]"
+max_concurrent = [number]
+
+[state]
+file = "[path to STATE.md]"
+update_after_each_run = [true, false]
+
+[verification]
+enabled = [true, false]
+condition = "[objective condition that must be true for the loop to stop]"
+max_retries = [number]
+
+[budget]
+daily_token_cap = [number]
+alert_threshold = [number]
+```
+
+---
+
+## Usage Notes
+
+1. **The maker should be more powerful than the checker.** Use a larger model for the maker (complex generation) and a smaller model for the checker (focused verification).
+2. **Checker instructions must be specific.** "Check if it's good" is useless. "Run the test suite and verify all tests pass" is useful.
+3. **Set max_turns conservatively.** Prevents infinite loops. Start with 5-10 and increase only if needed.
+4. **Worktree isolation is recommended for makers.** Prevents the maker from polluting the main branch.
+5. **The checker can read-only.** Checkers typically don't need to modify files — they just verify and report.

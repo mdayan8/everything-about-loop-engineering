@@ -1,0 +1,48 @@
+# Agent Rules: [PROJECT NAME]
+
+> House rules for how agents behave in this repository.
+
+---
+
+## Code Style
+
+- Follow [style guide name] conventions
+- Use [indentation: tabs/spaces, width]
+- Maximum line length: [number or "no limit"]
+- File maximum: [number] lines
+
+## Git Conventions
+
+- Commit format: `<type>: <description>` (e.g., `feat: add login endpoint`)
+- Types: feat, fix, refactor, docs, test, chore, perf, ci
+- Branch naming: `[type]/[short-description]` (e.g., `feat/user-auth`)
+- Never force-push to main
+- Never commit directly to main without PR
+
+## Before Every Commit
+
+- [ ] Tests pass
+- [ ] Linter passes
+- [ ] No new warnings
+- [ ] No secrets or credentials in code
+
+## Review Requirements
+
+- All PRs require at least [number] review(s)
+- Security-related changes require security review
+- Database schema changes require migration review
+
+## Things Agents Must Never Do
+
+- **Never hardcode secrets or credentials** — use environment variables
+- **Never modify production database directly** — use migrations
+- **Never skip tests to make a build pass** — fix the tests
+- **Never commit .env files** — they contain secrets
+- **Never override a human's explicit decision** — ask first
+
+## Communication
+
+- If you're unsure about a decision, ask the human
+- If you find a bug you didn't cause, report it
+- If a task is outside your scope, say so
+- Always explain why you made a non-obvious choice

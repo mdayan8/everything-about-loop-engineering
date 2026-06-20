@@ -1,0 +1,30 @@
+# Vision: [PROJECT NAME]
+
+> What this project is building toward.
+
+---
+
+## The Goal
+
+[One paragraph describing the end state. What does success look like? What problem does this project solve? Who benefits?]
+
+## Current State
+
+[One paragraph describing where the project is now. What's working? What's not done? What's the gap between current state and the goal?]
+
+## Priorities
+
+1. [Most important thing to work on next]
+2. [Second priority]
+3. [Third priority]
+
+## Non-Goals
+
+- [Thing this project explicitly does NOT do]
+- [Thing this project explicitly does NOT do]
+
+## How Agents Should Use This File
+
+This file anchors your work. Before starting any task, check whether it aligns with the vision. If it doesn't, stop and ask the human.
+
+This file should be read at the start of every agent session. It is the source of truth for what the project is trying to become.

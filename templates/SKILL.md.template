@@ -1,0 +1,51 @@
+# Skill: [PROJECT NAME]
+
+> **Usage:** [One tight, boring description of what this skill enables. A clear, literal description beats a clever one for agent matching. Example: "Builds and tests the API server for the payments service."]
+
+---
+
+## Project Conventions
+
+- **Language:** [e.g., TypeScript, Python, Go]
+- **Framework:** [e.g., Next.js, Django, Gin]
+- **Package Manager:** [e.g., npm, pip, go modules]
+- **Test Framework:** [e.g., Jest, pytest, go test]
+- **Linting:** [e.g., ESLint, ruff, golangci-lint]
+- **Formatting:** [e.g., Prettier, black, gofmt]
+
+## Build Steps
+
+```bash
+# Install dependencies
+[install command]
+
+# Build the project
+[build command]
+
+# Run tests
+[test command]
+
+# Run linting
+[lint command]
+
+# Format code
+[format command]
+```
+
+## Things Not to Do (and Why)
+
+- **Do not modify [X]** — [reason: e.g., "generated code, changes will be overwritten"]
+- **Do not touch [Y]** — [reason: e.g., "production database schema without running migrations first"]
+- **Do not skip [Z]** — [reason: e.g., "type checking, it catches bugs that tests miss"]
+- **Do not commit directly to [branch]** — [reason: e.g., "main branch requires PR review"]
+
+## Environment Variables
+
+List any environment variables the agent needs to know about:
+
+- `VAR_NAME` — [what it does, whether it's required]
+- `VAR_NAME` — [what it does, whether it's required]
+
+## Notes
+
+[Anything else the agent should know. Common pitfalls, gotchas, things that aren't obvious from the code.]
