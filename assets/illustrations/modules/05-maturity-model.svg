@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <!-- Pure white background -->
+  <rect width="100%" height="100%" fill="white"/>
+  
+  <!-- Title -->
+  <text x="960" y="80" text-anchor="middle" font-family="Arial" font-size="28" fill="black">循环工程成熟度模型</text>
+  
+  <!-- L1 Level (Bottom) -->
+  <g transform="translate(200, 600)">
+    <!-- Platform -->
+    <rect x="0" y="0" width="400" height="100" fill="none" stroke="black" stroke-width="3" rx="5"/>
+    
+    <!-- 小黑 reading report -->
+    <circle cx="100" cy="50" r="20" fill="black"/>
+    <circle cx="94" cy="46" r="3" fill="white"/>
+    <circle cx="106" cy="46" r="3" fill="white"/>
+    <line x1="90" y1="70" x2="85" y2="100" stroke="black" stroke-width="2"/>
+    <line x1="110" y1="70" x2="115" y2="100" stroke="black" stroke-width="2"/>
+    
+    <!-- Report document -->
+    <rect x="200" y="20" width="150" height="80" fill="none" stroke="black" stroke-width="2"/>
+    <line x1="220" y1="40" x2="330" y2="40" stroke="black" stroke-width="1"/>
+    <line x1="220" y1="55" x2="330" y2="55" stroke="black" stroke-width="1"/>
+    <line x1="220" y1="70" x2="330" y2="70" stroke="black" stroke-width="1"/>
+    <line x1="220" y1="85" x2="300" y2="85" stroke="black" stroke-width="1"/>
+    
+    <!-- Chinese labels -->
+    <text x="200" y="130" text-anchor="middle" font-family="Arial" font-size="20" fill="red">L1 报告</text>
+    <text x="200" y="150" text-anchor="middle" font-family="Arial" font-size="14" fill="blue">安全</text>
+  </g>
+  
+  <!-- Orange arrow up -->
+  <path d="M 400 550 L 400 450" fill="none" stroke="orange" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- L2 Level (Middle) -->
+  <g transform="translate(200, 350)">
+    <!-- Platform -->
+    <rect x="0" y="0" width="400" height="100" fill="none" stroke="black" stroke-width="3" rx="5"/>
+    
+    <!-- 小黑 proposing changes -->
+    <circle cx="100" cy="50" r="20" fill="black"/>
+    <circle cx="94" cy="46" r="3" fill="white"/>
+    <circle cx="106" cy="46" r="3" fill="white"/>
+    <line x1="90" y1="70" x2="85" y2="100" stroke="black" stroke-width="2"/>
+    <line x1="110" y1="70" x2="115" y2="100" stroke="black" stroke-width="2"/>
+    
+    <!-- Proposal document -->
+    <rect x="200" y="20" width="150" height="80" fill="none" stroke="black" stroke-width="2"/>
+    <circle cx="275" cy="50" r="15" fill="none" stroke="orange" stroke-width="2"/>
+    <text x="275" y="55" text-anchor="middle" font-family="Arial" font-size="12" fill="orange">建议</text>
+    
+    <!-- Chinese labels -->
+    <text x="200" y="130" text-anchor="middle" font-family="Arial" font-size="20" fill="red">L2 建议</text>
+    <text x="200" y="150" text-anchor="middle" font-family="Arial" font-size="14" fill="blue">谨慎</text>
+  </g>
+  
+  <!-- Orange arrow up -->
+  <path d="M 400 300 L 400 200" fill="none" stroke="orange" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- L3 Level (Top) -->
+  <g transform="translate(200, 100)">
+    <!-- Platform -->
+    <rect x="0" y="0" width="400" height="100" fill="none" stroke="black" stroke-width="3" rx="5"/>
+    
+    <!-- 小黑 deploying autonomously -->
+    <circle cx="100" cy="50" r="20" fill="black"/>
+    <circle cx="94" cy="46" r="3" fill="white"/>
+    <circle cx="106" cy="46" r="3" fill="white"/>
+    <line x1="90" y1="70" x2="85" y2="100" stroke="black" stroke-width="2"/>
+    <line x1="110" y1="70" x2="115" y2="100" stroke="black" stroke-width="2"/>
+    
+    <!-- Deployment arrow -->
+    <path d="M 200 50 L 350 50" fill="none" stroke="orange" stroke-width="3" marker-end="url(#arrowhead)"/>
+    <text x="275" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="orange">部署</text>
+    
+    <!-- Chinese labels -->
+    <text x="200" y="130" text-anchor="middle" font-family="Arial" font-size="20" fill="red">L3 自主</text>
+    <text x="200" y="150" text-anchor="middle" font-family="Arial" font-size="14" fill="blue">风险递增</text>
+  </g>
+  
+  <!-- Risk indicator on right -->
+  <g transform="translate(700, 300)">
+    <text x="0" y="0" font-family="Arial" font-size="16" fill="black">风险级别</text>
+    <rect x="0" y="20" width="100" height="30" fill="none" stroke="green" stroke-width="2"/>
+    <text x="50" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="green">低</text>
+    <rect x="0" y="60" width="100" height="30" fill="none" stroke="orange" stroke-width="2"/>
+    <text x="50" y="80" text-anchor="middle" font-family="Arial" font-size="12" fill="orange">中</text>
+    <rect x="0" y="100" width="100" height="30" fill="none" stroke="red" stroke-width="2"/>
+    <text x="50" y="120" text-anchor="middle" font-family="Arial" font-size="12" fill="red">高</text>
+  </g>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="orange"/>
+    </marker>
+  </defs>
+</svg>

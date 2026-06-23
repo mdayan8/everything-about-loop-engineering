@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <!-- Pure white background -->
+  <rect width="100%" height="100%" fill="white"/>
+  
+  <!-- Title -->
+  <text x="960" y="80" text-anchor="middle" font-family="Arial" font-size="28" fill="black">六大生产模式</text>
+  
+  <!-- Path/route -->
+  <path d="M 200 500 Q 400 300 600 500 Q 800 700 1000 500 Q 1200 300 1400 500 Q 1600 700 1800 500" 
+        fill="none" stroke="orange" stroke-width="4" stroke-dasharray="10,5"/>
+  
+  <!-- Pattern 1: Daily Triage -->
+  <g transform="translate(300, 400)">
+    <circle cx="0" cy="0" r="30" fill="none" stroke="black" stroke-width="2"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="12" fill="black">分类</text>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial" font-size="10" fill="blue">每日</text>
+    
+    <!-- 小黑 at this station -->
+    <circle cx="0" cy="60" r="15" fill="black"/>
+    <circle cx="-3" cy="58" r="2" fill="white"/>
+    <circle cx="3" cy="58" r="2" fill="white"/>
+    
+    <!-- Label -->
+    <text x="0" y="90" text-anchor="middle" font-family="Arial" font-size="14" fill="red">每日分类</text>
+  </g>
+  
+  <!-- Pattern 2: Changelog Drafter -->
+  <g transform="translate(600, 600)">
+    <circle cx="0" cy="0" r="30" fill="none" stroke="black" stroke-width="2"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="12" fill="black">日志</text>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial" font-size="10" fill="blue">每日</text>
+    
+    <!-- 小黑 at this station -->
+    <circle cx="0" cy="60" r="15" fill="black"/>
+    <circle cx="-3" cy="58" r="2" fill="white"/>
+    <circle cx="3" cy="58" r="2" fill="white"/>
+    
+    <!-- Label -->
+    <text x="0" y="90" text-anchor="middle" font-family="Arial" font-size="14" fill="red">变更日志</text>
+  </g>
+  
+  <!-- Pattern 3: Post-Merge Cleanup -->
+  <g transform="translate(900, 400)">
+    <circle cx="0" cy="0" r="30" fill="none" stroke="black" stroke-width="2"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="12" fill="black">清理</text>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial" font-size="10" fill="blue">1-6小时</text>
+    
+    <!-- 小黑 at this station -->
+    <circle cx="0" cy="60" r="15" fill="black"/>
+    <circle cx="-3" cy="58" r="2" fill="white"/>
+    <circle cx="3" cy="58" r="2" fill="white"/>
+    
+    <!-- Label -->
+    <text x="0" y="90" text-anchor="middle" font-family="Arial" font-size="14" fill="red">合并清理</text>
+  </g>
+  
+  <!-- Pattern 4: Dependency Sweeper -->
+  <g transform="translate(1200, 600)">
+    <circle cx="0" cy="0" r="30" fill="none" stroke="black" stroke-width="2"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="12" fill="black">依赖</text>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial" font-size="10" fill="blue">6小时-1天</text>
+    
+    <!-- 小黑 at this station -->
+    <circle cx="0" cy="60" r="15" fill="black"/>
+    <circle cx="-3" cy="58" r="2" fill="white"/>
+    <circle cx="3" cy="58" r="2" fill="white"/>
+    
+    <!-- Label -->
+    <text x="0" y="90" text-anchor="middle" font-family="Arial" font-size="14" fill="red">依赖更新</text>
+  </g>
+  
+  <!-- Pattern 5: PR Babysitter -->
+  <g transform="translate(1500, 400)">
+    <circle cx="0" cy="0" r="30" fill="none" stroke="black" stroke-width="2"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="12" fill="black">PR</text>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial" font-size="10" fill="blue">5-15分钟</text>
+    
+    <!-- 小黑 at this station -->
+    <circle cx="0" cy="60" r="15" fill="black"/>
+    <circle cx="-3" cy="58" r="2" fill="white"/>
+    <circle cx="3" cy="58" r="2" fill="white"/>
+    
+    <!-- Label -->
+    <text x="0" y="90" text-anchor="middle" font-family="Arial" font-size="14" fill="red">PR监控</text>
+  </g>
+  
+  <!-- Pattern 6: CI Sweeper -->
+  <g transform="translate(1800, 600)">
+    <circle cx="0" cy="0" r="30" fill="none" stroke="black" stroke-width="2"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="12" fill="black">CI</text>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial" font-size="10" fill="blue">5-15分钟</text>
+    
+    <!-- 小黑 at this station -->
+    <circle cx="0" cy="60" r="15" fill="black"/>
+    <circle cx="-3" cy="58" r="2" fill="white"/>
+    <circle cx="3" cy="58" r="2" fill="white"/>
+    
+    <!-- Label -->
+    <text x="0" y="90" text-anchor="middle" font-family="Arial" font-size="14" fill="red">CI检查</text>
+  </g>
+  
+  <!-- Risk/Cost indicator -->
+  <g transform="translate(100, 200)">
+    <text x="0" y="0" font-family="Arial" font-size="16" fill="black">成本/风险</text>
+    <rect x="0" y="20" width="120" height="30" fill="none" stroke="green" stroke-width="2"/>
+    <text x="60" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="green">低</text>
+    <rect x="0" y="60" width="120" height="30" fill="none" stroke="orange" stroke-width="2"/>
+    <text x="60" y="80" text-anchor="middle" font-family="Arial" font-size="12" fill="orange">中</text>
+    <rect x="0" y="100" width="120" height="30" fill="none" stroke="red" stroke-width="2"/>
+    <text x="60" y="120" text-anchor="middle" font-family="Arial" font-size="12" fill="red">高</text>
+  </g>
+  
+  <!-- Direction arrow -->
+  <path d="M 200 700 L 1800 700" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="1000" y="750" text-anchor="middle" font-family="Arial" font-size="14" fill="black">从低风险到高风险</text>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="black"/>
+    </marker>
+  </defs>
+</svg>

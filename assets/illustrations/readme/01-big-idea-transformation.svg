@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <!-- Pure white background -->
+  <rect width="100%" height="100%" fill="white"/>
+  
+  <!-- Left side: Manual Prompting -->
+  <g transform="translate(200, 300)">
+    <!-- Computer screen -->
+    <rect x="0" y="0" width="300" height="200" fill="none" stroke="black" stroke-width="3" rx="5"/>
+    <rect x="10" y="10" width="280" height="180" fill="none" stroke="black" stroke-width="1"/>
+    
+    <!-- Prompt text on screen -->
+    <text x="150" y="80" text-anchor="middle" font-family="Arial" font-size="14" fill="black">"Fix this bug"</text>
+    <text x="150" y="100" text-anchor="middle" font-family="Arial" font-size="14" fill="black">"Add this feature"</text>
+    <text x="150" y="120" text-anchor="middle" font-family="Arial" font-size="14" fill="black">"Refactor this code"</text>
+    
+    <!-- Keyboard -->
+    <rect x="50" y="220" width="200" height="60" fill="none" stroke="black" stroke-width="2" rx="3"/>
+    
+    <!-- 小黑 character (left side - manually typing) -->
+    <circle cx="150" cy="350" r="25" fill="black"/>
+    <circle cx="142" cy="345" r="4" fill="white"/>
+    <circle cx="158" cy="345" r="4" fill="white"/>
+    <line x1="140" y1="375" x2="135" y2="420" stroke="black" stroke-width="2"/>
+    <line x1="160" y1="375" x2="165" y2="420" stroke="black" stroke-width="2"/>
+    
+    <!-- Typing action lines -->
+    <line x1="120" y1="300" x2="100" y2="280" stroke="black" stroke-width="1" stroke-dasharray="5,5"/>
+    <line x1="180" y1="300" x2="200" y2="280" stroke="black" stroke-width="1" stroke-dasharray="5,5"/>
+    
+    <!-- Chinese label -->
+    <text x="150" y="460" text-anchor="middle" font-family="Arial" font-size="18" fill="red">手动提示</text>
+  </g>
+  
+  <!-- Orange transformation arrow -->
+  <path d="M 550 400 Q 700 350 850 400" fill="none" stroke="orange" stroke-width="4" marker-end="url(#arrowhead)"/>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="orange"/>
+    </marker>
+  </defs>
+  
+  <!-- Right side: Loop Engineering -->
+  <g transform="translate(900, 300)">
+    <!-- System diagram -->
+    <rect x="0" y="0" width="300" height="200" fill="none" stroke="black" stroke-width="3" rx="5"/>
+    
+    <!-- Automation arrows inside system -->
+    <path d="M 50 50 L 250 50" fill="none" stroke="orange" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M 250 80 L 50 80" fill="none" stroke="orange" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M 50 110 L 250 110" fill="none" stroke="orange" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M 250 140 L 50 140" fill="none" stroke="orange" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- System components -->
+    <rect x="70" y="40" width="60" height="20" fill="none" stroke="black" stroke-width="1"/>
+    <rect x="170" y="40" width="60" height="20" fill="none" stroke="black" stroke-width="1"/>
+    <rect x="70" y="70" width="60" height="20" fill="none" stroke="black" stroke-width="1"/>
+    <rect x="170" y="70" width="60" height="20" fill="none" stroke="black" stroke-width="1"/>
+    <rect x="70" y="100" width="60" height="20" fill="none" stroke="black" stroke-width="1"/>
+    <rect x="170" y="100" width="60" height="20" fill="none" stroke="black" stroke-width="1"/>
+    <rect x="70" y="130" width="60" height="20" fill="none" stroke="black" stroke-width="1"/>
+    <rect x="170" y="130" width="60" height="20" fill="none" stroke="black" stroke-width="1"/>
+    
+    <!-- 小黑 character (right side - designing system) -->
+    <circle cx="150" cy="280" r="25" fill="black"/>
+    <circle cx="142" cy="275" r="4" fill="white"/>
+    <circle cx="158" cy="275" r="4" fill="white"/>
+    <line x1="140" y1="305" x2="135" y2="350" stroke="black" stroke-width="2"/>
+    <line x1="160" y1="305" x2="165" y2="350" stroke="black" stroke-width="2"/>
+    
+    <!-- Designing action lines -->
+    <line x1="120" y1="250" x2="100" y2="230" stroke="black" stroke-width="1" stroke-dasharray="5,5"/>
+    <line x1="180" y1="250" x2="200" y2="230" stroke="black" stroke-width="1" stroke-dasharray="5,5"/>
+    
+    <!-- Chinese labels -->
+    <text x="150" y="390" text-anchor="middle" font-family="Arial" font-size="18" fill="red">系统设计</text>
+    <text x="150" y="410" text-anchor="middle" font-family="Arial" font-size="14" fill="blue">自动化</text>
+    <text x="150" y="430" text-anchor="middle" font-family="Arial" font-size="14" fill="blue">验证</text>
+  </g>
+  
+  <!-- Title annotation -->
+  <text x="960" y="150" text-anchor="middle" font-family="Arial" font-size="24" fill="black">从手动到自动的转变</text>
+</svg>

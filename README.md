@@ -17,6 +17,8 @@
 
 ## The Big Idea
 
+![From Prompting to Loop Engineering](assets/illustrations/readme/01-big-idea-transformation.svg)
+
 For two years, the way you worked with AI coding agents was simple: you typed a prompt, read the response, typed another prompt. One turn at a time. You were the human in the loop.
 
 **Loop engineering changes that.** Instead of typing prompts yourself, you design the system that generates them — automatically, on a schedule, with verification, state memory, and sub-agent checking.
@@ -236,6 +238,8 @@ cp -r llm-wiki/ /path/to/your-agent/knowledge/loop-engineering/
 
 ## The Maturity Model
 
+![Loop Engineering Maturity Model](assets/illustrations/readme/02-maturity-model.svg)
+
 ```
 L1: Report Only          L2: Assisted            L3: Unattended
 ──────────────          ────────────            ──────────────
@@ -255,6 +259,8 @@ Most loops stay here    After L1 proven         Few tasks earn this
 
 ## The Six Production Patterns
 
+![The Six Production Patterns](assets/illustrations/readme/04-six-production-patterns.svg)
+
 | Pattern | Cadence | Cost | Start At | What It Does |
 |---------|---------|------|----------|-------------|
 | [Daily Triage](modules/06-production-patterns/README.md#daily-triage) | 1x/day | Low | L1 | Categorizes issues & PRs |
@@ -267,6 +273,8 @@ Most loops stay here    After L1 proven         Few tasks earn this
 ---
 
 ## The Six Building Blocks
+
+![The Six Building Blocks of Loop Engineering](assets/illustrations/readme/03-six-building-blocks.svg)
 
 ```mermaid
 flowchart LR
@@ -441,6 +449,21 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Corrections, experience reports, and new
 ## License
 
 [MIT](LICENSE)
+
+---
+
+## Illustrations
+
+This repository includes illustrations in the Ian Xiaohei style (小黑怪诞正文配图) to help visualize key concepts. The illustrations use:
+
+- **16:9 horizontal format** with pure white background
+- **Black hand-drawn line art** with slight wobble
+- **小黑 (Xiaohei)** as the core character: a solid black creature performing key actions
+- **Sparse red/orange/blue Chinese annotations** for clarity
+
+![Illustration Style Example](assets/illustrations/readme/01-big-idea-transformation.svg)
+
+For detailed illustration prompts and generation guides, see [ILLUSTRATION-GUIDE.md](assets/illustrations/ILLUSTRATION-GUIDE.md).
 
 ---
 

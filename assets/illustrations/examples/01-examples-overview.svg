@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <!-- Pure white background -->
+  <rect width="100%" height="100%" fill="white"/>
+  
+  <!-- Title -->
+  <text x="960" y="80" text-anchor="middle" font-family="Arial" font-size="28" fill="black">循环工程示例概览</text>
+  
+  <!-- Central 小黑 character -->
+  <circle cx="960" cy="540" r="40" fill="black"/>
+  <circle cx="948" cy="532" r="6" fill="white"/>
+  <circle cx="972" cy="532" r="6" fill="white"/>
+  <line x1="940" y1="580" x2="930" y2="650" stroke="black" stroke-width="3"/>
+  <line x1="980" y1="580" x2="990" y2="650" stroke="black" stroke-width="3"/>
+  
+  <!-- Example 1: Daily Triage (top left) -->
+  <g transform="translate(400, 300)">
+    <rect x="-100" y="-50" width="200" height="100" fill="none" stroke="black" stroke-width="3" rx="5"/>
+    <text x="0" y="-20" text-anchor="middle" font-family="Arial" font-size="16" fill="black">每日分类</text>
+    <text x="0" y="0" text-anchor="middle" font-family="Arial" font-size="12" fill="blue">L1 模式</text>
+    <text x="0" y="20" text-anchor="middle" font-family="Arial" font-size="12" fill="blue">问题/PR分类</text>
+    
+    <!-- Connection line to center -->
+    <line x1="100" y1="50" x2="460" y2="240" stroke="orange" stroke-width="2" stroke-dasharray="8,4"/>
+    
+    <!-- 小黑 at this example -->
+    <circle cx="0" cy="80" r="15" fill="black"/>
+    <circle cx="-3" cy="78" r="2" fill="white"/>
+    <circle cx="3" cy="78" r="2" fill="white"/>
+  </g>
+  
+  <!-- Example 2: Changelog Drafter (top right) -->
+  <g transform="translate(1520, 300)">
+    <rect x="-100" y="-50" width="200" height="100" fill="none" stroke="black" stroke-width="3" rx="5"/>
+    <text x="0" y="-20" text-anchor="middle" font-family="Arial" font-size="16" fill="black">变更日志</text>
+    <text x="0" y="0" text-anchor="middle" font-family="Arial" font-size="12" fill="blue">L1 模式</text>
+    <text x="0" y="20" text-anchor="middle" font-family="Arial" font-size="12" fill="blue">Git历史分析</text>
+    
+    <!-- Connection line to center -->
+    <line x1="-100" y1="50" x2="-460" y2="240" stroke="orange" stroke-width="2" stroke-dasharray="8,4"/>
+    
+    <!-- 小黑 at this example -->
+    <circle cx="0" cy="80" r="15" fill="black"/>
+    <circle cx="-3" cy="78" r="2" fill="white"/>
+    <circle cx="3" cy="78" r="2" fill="white"/>
+  </g>
+  
+  <!-- Example 3: Code Quality Guardian (bottom) -->
+  <g transform="translate(960, 800)">
+    <rect x="-120" y="-50" width="240" height="100" fill="none" stroke="black" stroke-width="3" rx="5"/>
+    <text x="0" y="-20" text-anchor="middle" font-family="Arial" font-size="16" fill="black">代码质量守护者</text>
+    <text x="0" y="0" text-anchor="middle" font-family="Arial" font-size="12" fill="blue">多子代理模式</text>
+    <text x="0" y="20" text-anchor="middle" font-family="Arial" font-size="12" fill="blue">并行验证</text>
+    
+    <!-- Connection line to center -->
+    <line x1="0" y1="-50" x2="0" y2="-210" stroke="orange" stroke-width="2" stroke-dasharray="8,4"/>
+    
+    <!-- 小黑 at this example -->
+    <circle cx="0" cy="80" r="15" fill="black"/>
+    <circle cx="-3" cy="78" r="2" fill="white"/>
+    <circle cx="3" cy="78" r="2" fill="white"/>
+  </g>
+  
+  <!-- Labels -->
+  <g transform="translate(200, 500)">
+    <text x="0" y="0" font-family="Arial" font-size="16" fill="red">实践示例</text>
+    <text x="0" y="20" font-family="Arial" font-size="14" fill="black">展示循环模式</text>
+    <text x="0" y="40" font-family="Arial" font-size="14" fill="black">在实际中的应用</text>
+  </g>
+  
+  <g transform="translate(1600, 500)">
+    <text x="0" y="0" font-family="Arial" font-size="16" fill="red">从简单开始</text>
+    <text x="0" y="20" font-family="Arial" font-size="14" fill="black">每日分类</text>
+    <text x="0" y="40" font-family="Arial" font-size="14" fill="black">变更日志</text>
+  </g>
+  
+  <!-- Connection lines between examples -->
+  <line x1="500" y1="350" x2="1420" y2="350" stroke="black" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="500" y1="350" x2="960" y2="750" stroke="black" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="1420" y1="350" x2="960" y2="750" stroke="black" stroke-width="1" stroke-dasharray="4,4"/>
+</svg>

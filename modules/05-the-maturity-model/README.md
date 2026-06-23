@@ -6,6 +6,8 @@
 
 ## The Short Version
 
+![Loop Engineering Maturity Model](../../assets/illustrations/modules/05-maturity-model.svg)
+
 Not all loops are equal. Some just read and report. Some propose changes. Some commit and deploy autonomously. The maturity model defines three tiers and tells you which tier to use for what.
 
 | Tier | Name | What It Does | When to Use |

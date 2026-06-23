@@ -6,6 +6,8 @@
 
 ## The Short Version
 
+![Loop Engineering Concept](../../assets/illustrations/modules/02-loop-engineering-concept.svg)
+
 **Loop engineering is replacing yourself as the person who prompts the agent — designing the system that does it instead.**
 
 When you interactively type prompts into a coding agent, you are the human in the loop. Loop engineering removes you from that loop — not by replacing you, but by designing the automation, verification, and state management that lets the agent run autonomously.
@@ -44,6 +46,8 @@ Thermostats, Kubernetes controllers, CI retry systems, and TCP congestion contro
 ---
 
 ## The Timeline
+
+![Loop Engineering Timeline](../../assets/illustrations/modules/02-timeline-evolution.svg)
 
 Loop engineering did not appear out of nowhere. It emerged through a specific sequence of events:
 

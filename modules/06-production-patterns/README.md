@@ -6,6 +6,8 @@
 
 ## The Six Patterns
 
+![The Six Production Patterns](../../assets/illustrations/modules/06-six-patterns.svg)
+
 | Pattern | Cadence | Starting Maturity | Relative Token Cost | Description |
 |---------|---------|-------------------|---------------------|-------------|
 | [Daily Triage](#daily-triage) | Once a day | L1 | Low | Categorizes issues, PRs, and activity |

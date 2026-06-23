@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <!-- Pure white background -->
+  <rect width="100%" height="100%" fill="white"/>
+  
+  <!-- Title -->
+  <text x="960" y="80" text-anchor="middle" font-family="Arial" font-size="28" fill="black">循环工程核心概念</text>
+  
+  <!-- Machine/device -->
+  <g transform="translate(960, 400)">
+    <!-- Main machine body -->
+    <rect x="-200" y="-150" width="400" height="300" fill="none" stroke="black" stroke-width="3" rx="10"/>
+    
+    <!-- Input section -->
+    <rect x="-180" y="-130" width="150" height="100" fill="none" stroke="black" stroke-width="2"/>
+    <text x="-105" y="-80" text-anchor="middle" font-family="Arial" font-size="14" fill="black">代码库状态</text>
+    
+    <!-- Processing section -->
+    <rect x="-20" y="-130" width="150" height="100" fill="none" stroke="black" stroke-width="2"/>
+    <text x="55" y="-80" text-anchor="middle" font-family="Arial" font-size="14" fill="black">自动分析</text>
+    
+    <!-- Output section -->
+    <rect x="50" y="-130" width="150" height="100" fill="none" stroke="black" stroke-width="2"/>
+    <text x="125" y="-80" text-anchor="middle" font-family="Arial" font-size="14" fill="black">生成提示</text>
+    
+    <!-- Arrows inside machine -->
+    <path d="M -30 -80 L 30 -80" fill="none" stroke="orange" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M 100 -80 L 160 -80" fill="none" stroke="orange" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Control panel -->
+    <rect x="-180" y="0" width="360" height="80" fill="none" stroke="black" stroke-width="2"/>
+    <circle cx="-120" cy="40" r="15" fill="none" stroke="green" stroke-width="2"/>
+    <circle cx="-60" cy="40" r="15" fill="none" stroke="orange" stroke-width="2"/>
+    <circle cx="0" cy="40" r="15" fill="none" stroke="red" stroke-width="2"/>
+    <text x="-120" y="45" text-anchor="middle" font-family="Arial" font-size="10" fill="green">开</text>
+    <text x="-60" y="45" text-anchor="middle" font-family="Arial" font-size="10" fill="orange">调</text>
+    <text x="0" y="45" text-anchor="middle" font-family="Arial" font-size="10" fill="red">停</text>
+    
+    <!-- Output arrow -->
+    <path d="M 200 40 L 300 40" fill="none" stroke="orange" stroke-width="3" marker-end="url(#arrowhead)"/>
+    <text x="250" y="30" text-anchor="middle" font-family="Arial" font-size="12" fill="orange">自动提示</text>
+  </g>
+  
+  <!-- 小黑 character operating machine -->
+  <g transform="translate(960, 650)">
+    <circle cx="0" cy="0" r="30" fill="black"/>
+    <circle cx="-8" cy="-5" r="4" fill="white"/>
+    <circle cx="8" cy="-5" r="4" fill="white"/>
+    <line x1="-10" y1="30" x2="-15" y2="70" stroke="black" stroke-width="2"/>
+    <line x1="10" y1="30" x2="15" y2="70" stroke="black" stroke-width="2"/>
+    
+    <!-- Arms reaching up to machine -->
+    <line x1="-20" y1="10" x2="-50" y2="-50" stroke="black" stroke-width="2"/>
+    <line x1="20" y1="10" x2="50" y2="-50" stroke="black" stroke-width="2"/>
+    
+    <!-- Chinese labels -->
+    <text x="0" y="100" text-anchor="middle" font-family="Arial" font-size="18" fill="red">循环工程师</text>
+    <text x="0" y="120" text-anchor="middle" font-family="Arial" font-size="14" fill="blue">设计系统</text>
+  </g>
+  
+  <!-- Connection lines -->
+  <line x1="960" y1="550" x2="960" y2="620" stroke="black" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Annotations -->
+  <g transform="translate(200, 300)">
+    <text x="0" y="0" font-family="Arial" font-size="16" fill="red">传统方式</text>
+    <text x="0" y="20" font-family="Arial" font-size="14" fill="black">手动输入提示</text>
+    <text x="0" y="40" font-family="Arial" font-size="14" fill="black">一次一个任务</text>
+  </g>
+  
+  <g transform="translate(1500, 300)">
+    <text x="0" y="0" font-family="Arial" font-size="16" fill="red">循环工程</text>
+    <text x="0" y="20" font-family="Arial" font-size="14" fill="black">系统自动生成</text>
+    <text x="0" y="40" font-family="Arial" font-size="14" fill="black">持续自动化</text>
+  </g>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="orange"/>
+    </marker>
+  </defs>
+</svg>

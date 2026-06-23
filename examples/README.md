@@ -2,6 +2,8 @@
 
 Worked examples demonstrating loop engineering patterns in practice.
 
+![Loop Engineering Examples](../assets/illustrations/examples/01-examples-overview.svg)
+
 ---
 
 ## What's Here

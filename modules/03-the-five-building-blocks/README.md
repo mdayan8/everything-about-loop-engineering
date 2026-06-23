@@ -6,6 +6,8 @@
 
 ## The Short Version
 
+![The Six Building Blocks](../../assets/illustrations/modules/03-six-building-blocks.svg)
+
 A loop is not one thing. It's a system built from six components. You don't need all six for your first loop, but understanding them helps you design loops that scale.
 
 ```mermaid

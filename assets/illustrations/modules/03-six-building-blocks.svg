@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <!-- Pure white background -->
+  <rect width="100%" height="100%" fill="white"/>
+  
+  <!-- Title -->
+  <text x="960" y="80" text-anchor="middle" font-family="Arial" font-size="28" fill="black">循环工程的六大构建块</text>
+  
+  <!-- Central 小黑 character -->
+  <circle cx="960" cy="540" r="40" fill="black"/>
+  <circle cx="948" cy="532" r="6" fill="white"/>
+  <circle cx="972" cy="532" r="6" fill="white"/>
+  <line x1="940" y1="580" x2="930" y2="650" stroke="black" stroke-width="3"/>
+  <line x1="980" y1="580" x2="990" y2="650" stroke="black" stroke-width="3"/>
+  
+  <!-- Building block 1: Automations (top) -->
+  <g transform="translate(960, 200)">
+    <rect x="-80" y="-30" width="160" height="60" fill="none" stroke="black" stroke-width="3" rx="5"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="16" fill="black">自动化</text>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial" font-size="12" fill="blue">调度/触发</text>
+    
+    <!-- Connection line to center -->
+    <line x1="0" y1="30" x2="0" y2="310" stroke="orange" stroke-width="2" stroke-dasharray="8,4"/>
+  </g>
+  
+  <!-- Building block 2: Worktrees (top right) -->
+  <g transform="translate(1300, 350)">
+    <rect x="-80" y="-30" width="160" height="60" fill="none" stroke="black" stroke-width="3" rx="5"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="16" fill="black">工作树</text>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial" font-size="12" fill="blue">隔离并行</text>
+    
+    <!-- Connection line to center -->
+    <line x1="-80" y1="0" x2="-260" y2="190" stroke="orange" stroke-width="2" stroke-dasharray="8,4"/>
+  </g>
+  
+  <!-- Building block 3: Skills (right) -->
+  <g transform="translate(1400, 540)">
+    <rect x="-80" y="-30" width="160" height="60" fill="none" stroke="black" stroke-width="3" rx="5"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="16" fill="black">技能</text>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial" font-size="12" fill="blue">项目上下文</text>
+    
+    <!-- Connection line to center -->
+    <line x1="-80" y1="0" x2="-360" y2="0" stroke="orange" stroke-width="2" stroke-dasharray="8,4"/>
+  </g>
+  
+  <!-- Building block 4: Plugins (bottom right) -->
+  <g transform="translate(1300, 730)">
+    <rect x="-80" y="-30" width="160" height="60" fill="none" stroke="black" stroke-width="3" rx="5"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="16" fill="black">插件</text>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial" font-size="12" fill="blue">外部工具</text>
+    
+    <!-- Connection line to center -->
+    <line x1="-80" y1="0" x2="-260" y2="-190" stroke="orange" stroke-width="2" stroke-dasharray="8,4"/>
+  </g>
+  
+  <!-- Building block 5: Sub-Agents (bottom) -->
+  <g transform="translate(960, 880)">
+    <rect x="-80" y="-30" width="160" height="60" fill="none" stroke="black" stroke-width="3" rx="5"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="16" fill="black">子代理</text>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial" font-size="12" fill="blue">独立验证</text>
+    
+    <!-- Connection line to center -->
+    <line x1="0" y1="-30" x2="0" y2="-310" stroke="orange" stroke-width="2" stroke-dasharray="8,4"/>
+  </g>
+  
+  <!-- Building block 6: Memory (bottom left) -->
+  <g transform="translate(620, 730)">
+    <rect x="-80" y="-30" width="160" height="60" fill="none" stroke="black" stroke-width="3" rx="5"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="16" fill="black">记忆</text>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial" font-size="12" fill="blue">持久状态</text>
+    
+    <!-- Connection line to center -->
+    <line x1="80" y1="0" x2="260" y2="-190" stroke="orange" stroke-width="2" stroke-dasharray="8,4"/>
+  </g>
+  
+  <!-- Connection label -->
+  <g transform="translate(520, 540)">
+    <text x="0" y="0" text-anchor="middle" font-family="Arial" font-size="14" fill="red">组合</text>
+    <text x="0" y="20" text-anchor="middle" font-family="Arial" font-size="14" fill="red">协作</text>
+    
+    <!-- Connection line to center -->
+    <line x1="80" y1="0" x2="360" y2="0" stroke="orange" stroke-width="2" stroke-dasharray="8,4"/>
+  </g>
+  
+  <!-- Additional connection lines between blocks -->
+  <line x1="1040" y1="230" x2="1220" y2="320" stroke="black" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="1380" y1="380" x2="1380" y2="510" stroke="black" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="1320" y1="700" x2="1040" y2="850" stroke="black" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="640" y1="700" x2="920" y2="850" stroke="black" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="540" y1="510" x2="920" y2="540" stroke="black" stroke-width="1" stroke-dasharray="4,4"/>
+</svg>
