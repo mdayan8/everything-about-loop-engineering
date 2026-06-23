@@ -3,80 +3,116 @@
   <rect width="100%" height="100%" fill="white"/>
   
   <!-- Title -->
-  <text x="960" y="80" text-anchor="middle" font-family="Arial" font-size="28" fill="black">循环工程核心概念</text>
+  <text x="960" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#2c3e50">LOOP ENGINEERING CONCEPT</text>
+  <text x="960" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Replace yourself as the prompter with a system that does it automatically</text>
   
   <!-- Machine/device -->
   <g transform="translate(960, 400)">
     <!-- Main machine body -->
-    <rect x="-200" y="-150" width="400" height="300" fill="none" stroke="black" stroke-width="3" rx="10"/>
+    <rect x="-250" y="-180" width="500" height="360" fill="#f8f9fa" stroke="#34495e" stroke-width="4" rx="15"/>
+    <rect x="-240" y="-170" width="480" height="340" fill="white" stroke="#bdc3c7" stroke-width="2"/>
     
     <!-- Input section -->
-    <rect x="-180" y="-130" width="150" height="100" fill="none" stroke="black" stroke-width="2"/>
-    <text x="-105" y="-80" text-anchor="middle" font-family="Arial" font-size="14" fill="black">代码库状态</text>
+    <rect x="-220" y="-150" width="180" height="120" fill="#3498db" stroke="#2980b9" stroke-width="3" rx="10"/>
+    <text x="-130" y="-100" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">INPUT</text>
+    <text x="-130" y="-75" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#d6eaf8">Codebase status</text>
+    <text x="-130" y="-55" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#d6eaf8">Git history</text>
+    <text x="-130" y="-35" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#d6eaf8">Test results</text>
     
     <!-- Processing section -->
-    <rect x="-20" y="-130" width="150" height="100" fill="none" stroke="black" stroke-width="2"/>
-    <text x="55" y="-80" text-anchor="middle" font-family="Arial" font-size="14" fill="black">自动分析</text>
+    <rect x="-20" y="-150" width="180" height="120" fill="#f39c12" stroke="#e67e22" stroke-width="3" rx="10"/>
+    <text x="70" y="-100" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">PROCESS</text>
+    <text x="70" y="-75" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#fdebd0">Analyze</text>
+    <text x="70" y="-55" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#fdebd0">Decide</text>
+    <text x="70" y="-35" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#fdebd0">Generate</text>
     
     <!-- Output section -->
-    <rect x="50" y="-130" width="150" height="100" fill="none" stroke="black" stroke-width="2"/>
-    <text x="125" y="-80" text-anchor="middle" font-family="Arial" font-size="14" fill="black">生成提示</text>
+    <rect x="80" y="-150" width="180" height="120" fill="#2ecc71" stroke="#27ae60" stroke-width="3" rx="10"/>
+    <text x="170" y="-100" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">OUTPUT</text>
+    <text x="170" y="-75" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#d5f5e3">Prompts</text>
+    <text x="170" y="-55" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#d5f5e3">Instructions</text>
+    <text x="170" y="-35" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#d5f5e3">Tasks</text>
     
     <!-- Arrows inside machine -->
-    <path d="M -30 -80 L 30 -80" fill="none" stroke="orange" stroke-width="2" marker-end="url(#arrowhead)"/>
-    <path d="M 100 -80 L 160 -80" fill="none" stroke="orange" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M -40 -90 L 40 -90" fill="none" stroke="#f39c12" stroke-width="4" marker-end="url(#arrowhead)"/>
+    <path d="M 140 -90 L 220 -90" fill="none" stroke="#f39c12" stroke-width="4" marker-end="url(#arrowhead)"/>
     
     <!-- Control panel -->
-    <rect x="-180" y="0" width="360" height="80" fill="none" stroke="black" stroke-width="2"/>
-    <circle cx="-120" cy="40" r="15" fill="none" stroke="green" stroke-width="2"/>
-    <circle cx="-60" cy="40" r="15" fill="none" stroke="orange" stroke-width="2"/>
-    <circle cx="0" cy="40" r="15" fill="none" stroke="red" stroke-width="2"/>
-    <text x="-120" y="45" text-anchor="middle" font-family="Arial" font-size="10" fill="green">开</text>
-    <text x="-60" y="45" text-anchor="middle" font-family="Arial" font-size="10" fill="orange">调</text>
-    <text x="0" y="45" text-anchor="middle" font-family="Arial" font-size="10" fill="red">停</text>
+    <rect x="-220" y="0" width="440" height="100" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2"/>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">CONTROL PANEL</text>
+    
+    <!-- Buttons -->
+    <circle cx="-150" cy="60" r="20" fill="#27ae60" stroke="#229954" stroke-width="2"/>
+    <text x="-150" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">ON</text>
+    
+    <circle cx="-80" cy="60" r="20" fill="#f39c12" stroke="#e67e22" stroke-width="2"/>
+    <text x="-80" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">TUNE</text>
+    
+    <circle cx="-10" cy="60" r="20" fill="#e74c3c" stroke="#c0392b" stroke-width="2"/>
+    <text x="-10" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">STOP</text>
+    
+    <!-- Status indicators -->
+    <rect x="50" y="40" width="120" height="20" fill="#27ae60" stroke="#229954" stroke-width="1" rx="3"/>
+    <text x="110" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">RUNNING</text>
+    
+    <rect x="50" y="65" width="120" height="20" fill="#3498db" stroke="#2980b9" stroke-width="1" rx="3"/>
+    <text x="110" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">VERIFIED</text>
     
     <!-- Output arrow -->
-    <path d="M 200 40 L 300 40" fill="none" stroke="orange" stroke-width="3" marker-end="url(#arrowhead)"/>
-    <text x="250" y="30" text-anchor="middle" font-family="Arial" font-size="12" fill="orange">自动提示</text>
+    <path d="M 250 50 L 350 50" fill="none" stroke="#2ecc71" stroke-width="4" marker-end="url(#arrowhead)"/>
+    <text x="300" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2ecc71">AUTO PROMPTS</text>
   </g>
   
   <!-- 小黑 character operating machine -->
-  <g transform="translate(960, 650)">
-    <circle cx="0" cy="0" r="30" fill="black"/>
-    <circle cx="-8" cy="-5" r="4" fill="white"/>
-    <circle cx="8" cy="-5" r="4" fill="white"/>
-    <line x1="-10" y1="30" x2="-15" y2="70" stroke="black" stroke-width="2"/>
-    <line x1="10" y1="30" x2="15" y2="70" stroke="black" stroke-width="2"/>
-    
+  <g transform="translate(960, 700)">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="50" ry="45" fill="#2c3e50"/>
+    <!-- Eyes -->
+    <circle cx="-15" cy="-10" r="7" fill="white"/>
+    <circle cx="15" cy="-10" r="7" fill="white"/>
+    <circle cx="-15" cy="-10" r="4" fill="#2c3e50"/>
+    <circle cx="15" cy="-10" r="4" fill="#2c3e50"/>
     <!-- Arms reaching up to machine -->
-    <line x1="-20" y1="10" x2="-50" y2="-50" stroke="black" stroke-width="2"/>
-    <line x1="20" y1="10" x2="50" y2="-50" stroke="black" stroke-width="2"/>
+    <line x1="-40" y1="10" x2="-80" y2="-80" stroke="#2c3e50" stroke-width="8" stroke-linecap="round"/>
+    <line x1="40" y1="10" x2="80" y2="-80" stroke="#2c3e50" stroke-width="8" stroke-linecap="round"/>
+    <!-- Hands -->
+    <circle cx="-80" cy="-80" r="10" fill="#2c3e50"/>
+    <circle cx="80" cy="-80" r="10" fill="#2c3e50"/>
+    <!-- Legs -->
+    <line x1="-20" y1="45" x2="-25" y2="100" stroke="#2c3e50" stroke-width="8" stroke-linecap="round"/>
+    <line x1="20" y1="45" x2="25" y2="100" stroke="#2c3e50" stroke-width="8" stroke-linecap="round"/>
+    <!-- Feet -->
+    <ellipse cx="-25" cy="110" rx="15" ry="8" fill="#2c3e50"/>
+    <ellipse cx="25" cy="110" rx="15" ry="8" fill="#2c3e50"/>
     
     <!-- Chinese labels -->
-    <text x="0" y="100" text-anchor="middle" font-family="Arial" font-size="18" fill="red">循环工程师</text>
-    <text x="0" y="120" text-anchor="middle" font-family="Arial" font-size="14" fill="blue">设计系统</text>
+    <text x="0" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2c3e50">LOOP ENGINEER</text>
+    <text x="0" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">Designs the system</text>
+    <text x="0" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">That generates prompts</text>
   </g>
   
   <!-- Connection lines -->
-  <line x1="960" y1="550" x2="960" y2="620" stroke="black" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="960" y1="580" x2="960" y2="650" stroke="#2c3e50" stroke-width="3" stroke-dasharray="8,4"/>
   
   <!-- Annotations -->
   <g transform="translate(200, 300)">
-    <text x="0" y="0" font-family="Arial" font-size="16" fill="red">传统方式</text>
-    <text x="0" y="20" font-family="Arial" font-size="14" fill="black">手动输入提示</text>
-    <text x="0" y="40" font-family="Arial" font-size="14" fill="black">一次一个任务</text>
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#e74c3c">TRADITIONAL WAY</text>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">• Manual input prompts</text>
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">• One task at a time</text>
+    <text x="0" y="75" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">• You are the human in the loop</text>
   </g>
   
   <g transform="translate(1500, 300)">
-    <text x="0" y="0" font-family="Arial" font-size="16" fill="red">循环工程</text>
-    <text x="0" y="20" font-family="Arial" font-size="14" fill="black">系统自动生成</text>
-    <text x="0" y="40" font-family="Arial" font-size="14" fill="black">持续自动化</text>
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#27ae60">LOOP ENGINEERING</text>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">• System auto-generates</text>
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">• Continuous automation</text>
+    <text x="0" y="75" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">• You design the system</text>
   </g>
   
   <!-- Arrow marker -->
   <defs>
     <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="orange"/>
+      <polygon points="0 0, 10 3.5, 0 7" fill="#f39c12"/>
     </marker>
   </defs>
 </svg>

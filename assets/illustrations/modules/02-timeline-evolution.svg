@@ -3,95 +3,150 @@
   <rect width="100%" height="100%" fill="white"/>
   
   <!-- Title -->
-  <text x="960" y="80" text-anchor="middle" font-family="Arial" font-size="28" fill="black">循环工程演进时间线</text>
+  <text x="960" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#2c3e50">LOOP ENGINEERING TIMELINE</text>
+  <text x="960" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">From manual prompting to automated loops: the evolution</text>
   
   <!-- Timeline path -->
   <path d="M 200 500 Q 400 300 600 500 Q 800 700 1000 500 Q 1200 300 1400 500 Q 1600 700 1800 500" 
-        fill="none" stroke="orange" stroke-width="4" stroke-dasharray="10,5"/>
+        fill="none" stroke="#f39c12" stroke-width="6" stroke-dasharray="12,6"/>
   
   <!-- Milestone 1: July 2025 -->
   <g transform="translate(300, 400)">
-    <circle cx="0" cy="0" r="25" fill="none" stroke="black" stroke-width="2"/>
-    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="12" fill="black">拉尔夫</text>
+    <circle cx="0" cy="0" r="35" fill="#3498db" stroke="#2980b9" stroke-width="3"/>
+    <text x="0" y="-8" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">RALPH</text>
+    <text x="0" y="10" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#d6eaf8">LOOP</text>
     
     <!-- 小黑 at milestone -->
-    <circle cx="0" cy="50" r="15" fill="black"/>
-    <circle cx="-3" cy="48" r="2" fill="white"/>
-    <circle cx="3" cy="48" r="2" fill="white"/>
+    <g transform="translate(0, 60)">
+      <!-- Body -->
+      <ellipse cx="0" cy="0" rx="20" ry="18" fill="#2c3e50"/>
+      <!-- Eyes -->
+      <circle cx="-6" cy="-4" r="3" fill="white"/>
+      <circle cx="6" cy="-4" r="3" fill="white"/>
+      <!-- Legs -->
+      <line x1="-8" y1="18" x2="-10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+      <line x1="8" y1="18" x2="10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+    </g>
     
     <!-- Label -->
-    <text x="0" y="80" text-anchor="middle" font-family="Arial" font-size="14" fill="red">2025年7月</text>
-    <text x="0" y="100" text-anchor="middle" font-family="Arial" font-size="12" fill="blue">手动循环</text>
+    <text x="0" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#3498db">July 2025</text>
+    <text x="0" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Geoffrey Huntley</text>
+    <text x="0" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">"Ralph Wiggum as</text>
+    <text x="0" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">a Software Engineer"</text>
+    <text x="0" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">✓ Manual while loop</text>
   </g>
   
   <!-- Milestone 2: September 2025 -->
   <g transform="translate(600, 600)">
-    <circle cx="0" cy="0" r="25" fill="none" stroke="black" stroke-width="2"/>
-    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="12" fill="black">三个月</text>
+    <circle cx="0" cy="0" r="35" fill="#2ecc71" stroke="#27ae60" stroke-width="3"/>
+    <text x="0" y="-8" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">3 MONTH</text>
+    <text x="0" y="10" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#d5f5e3">STRESS TEST</text>
     
     <!-- 小黑 at milestone -->
-    <circle cx="0" cy="50" r="15" fill="black"/>
-    <circle cx="-3" cy="48" r="2" fill="white"/>
-    <circle cx="3" cy="48" r="2" fill="white"/>
+    <g transform="translate(0, 60)">
+      <!-- Body -->
+      <ellipse cx="0" cy="0" rx="20" ry="18" fill="#2c3e50"/>
+      <!-- Eyes -->
+      <circle cx="-6" cy="-4" r="3" fill="white"/>
+      <circle cx="6" cy="-4" r="3" fill="white"/>
+      <!-- Legs -->
+      <line x1="-8" y1="18" x2="-10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+      <line x1="8" y1="18" x2="10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+    </g>
     
     <!-- Label -->
-    <text x="0" y="80" text-anchor="middle" font-family="Arial" font-size="14" fill="red">2025年9月</text>
-    <text x="0" y="100" text-anchor="middle" font-family="Arial" font-size="12" fill="blue">压力测试</text>
+    <text x="0" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2ecc71">September 2025</text>
+    <text x="0" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Ran unattended for 3 months</text>
+    <text x="0" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Built CURSED language</text>
+    <text x="0" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">✓ Proved the pattern works</text>
   </g>
   
   <!-- Milestone 3: January 2026 -->
   <g transform="translate(900, 400)">
-    <circle cx="0" cy="0" r="25" fill="none" stroke="black" stroke-width="2"/>
-    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="12" fill="black">一切皆循环</text>
+    <circle cx="0" cy="0" r="35" fill="#f39c12" stroke="#e67e22" stroke-width="3"/>
+    <text x="0" y="-8" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">EVERYTHING</text>
+    <text x="0" y="10" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fdebd0">IS A RALPH</text>
     
     <!-- 小黑 at milestone -->
-    <circle cx="0" cy="50" r="15" fill="black"/>
-    <circle cx="-3" cy="48" r="2" fill="white"/>
-    <circle cx="3" cy="48" r="2" fill="white"/>
+    <g transform="translate(0, 60)">
+      <!-- Body -->
+      <ellipse cx="0" cy="0" rx="20" ry="18" fill="#2c3e50"/>
+      <!-- Eyes -->
+      <circle cx="-6" cy="-4" r="3" fill="white"/>
+      <circle cx="6" cy="-4" r="3" fill="white"/>
+      <!-- Legs -->
+      <line x1="-8" y1="18" x2="-10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+      <line x1="8" y1="18" x2="10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+    </g>
     
     <!-- Label -->
-    <text x="0" y="80" text-anchor="middle" font-family="Arial" font-size="14" fill="red">2026年1月</text>
-    <text x="0" y="100" text-anchor="middle" font-family="Arial" font-size="12" fill="blue">模式普及</text>
+    <text x="0" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#f39c12">January 2026</text>
+    <text x="0" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">"Everything is a Ralph loop"</text>
+    <text x="0" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Pattern becoming default</text>
+    <text x="0" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">✓ Pattern recognized</text>
   </g>
   
   <!-- Milestone 4: Early-Mid 2026 -->
   <g transform="translate(1200, 600)">
-    <circle cx="0" cy="0" r="25" fill="none" stroke="black" stroke-width="2"/>
-    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="12" fill="black">官方插件</text>
+    <circle cx="0" cy="0" r="35" fill="#9b59b6" stroke="#8e44ad" stroke-width="3"/>
+    <text x="0" y="-8" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">OFFICIAL</text>
+    <text x="0" y="10" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#e8daef">PLUGINS</text>
     
     <!-- 小黑 at milestone -->
-    <circle cx="0" cy="50" r="15" fill="black"/>
-    <circle cx="-3" cy="48" r="2" fill="white"/>
-    <circle cx="3" cy="48" r="2" fill="white"/>
+    <g transform="translate(0, 60)">
+      <!-- Body -->
+      <ellipse cx="0" cy="0" rx="20" ry="18" fill="#2c3e50"/>
+      <!-- Eyes -->
+      <circle cx="-6" cy="-4" r="3" fill="white"/>
+      <circle cx="6" cy="-4" r="3" fill="white"/>
+      <!-- Legs -->
+      <line x1="-8" y1="18" x2="-10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+      <line x1="8" y1="18" x2="10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+    </g>
     
     <!-- Label -->
-    <text x="0" y="80" text-anchor="middle" font-family="Arial" font-size="14" fill="red">2026年早-中期</text>
-    <text x="0" y="100" text-anchor="middle" font-family="Arial" font-size="12" fill="blue">正式集成</text>
+    <text x="0" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#9b59b6">Early-Mid 2026</text>
+    <text x="0" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Daisy Hollman, Boris Cherny</text>
+    <text x="0" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Claude Code plugins</text>
+    <text x="0" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">✓ Official integration</text>
   </g>
   
   <!-- Milestone 5: June 2026 -->
   <g transform="translate(1500, 400)">
-    <circle cx="0" cy="0" r="25" fill="none" stroke="black" stroke-width="2"/>
-    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="12" fill="black">命名</text>
+    <circle cx="0" cy="0" r="35" fill="#e74c3c" stroke="#c0392b" stroke-width="3"/>
+    <text x="0" y="-8" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">LOOP</text>
+    <text x="0" y="10" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fadbd8">ENGINEERING</text>
     
     <!-- 小黑 at milestone -->
-    <circle cx="0" cy="50" r="15" fill="black"/>
-    <circle cx="-3" cy="48" r="2" fill="white"/>
-    <circle cx="3" cy="48" r="2" fill="white"/>
+    <g transform="translate(0, 60)">
+      <!-- Body -->
+      <ellipse cx="0" cy="0" rx="20" ry="18" fill="#2c3e50"/>
+      <!-- Eyes -->
+      <circle cx="-6" cy="-4" r="3" fill="white"/>
+      <circle cx="6" cy="-4" r="3" fill="white"/>
+      <!-- Legs -->
+      <line x1="-8" y1="18" x2="-10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+      <line x1="8" y1="18" x2="10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+    </g>
     
     <!-- Label -->
-    <text x="0" y="80" text-anchor="middle" font-family="Arial" font-size="14" fill="red">2026年6月</text>
-    <text x="0" y="100" text-anchor="middle" font-family="Arial" font-size="12" fill="blue">循环工程</text>
+    <text x="0" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#e74c3c">June 2026</text>
+    <text x="0" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Addy Osmani names it</text>
+    <text x="0" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">"Loop Engineering"</text>
+    <text x="0" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">✓ Field named & structured</text>
   </g>
   
   <!-- Direction arrow -->
-  <path d="M 200 700 L 1800 700" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
-  <text x="1000" y="750" text-anchor="middle" font-family="Arial" font-size="14" fill="black">从手动到自动化</text>
+  <path d="M 200 750 L 1800 750" fill="none" stroke="#2c3e50" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <text x="1000" y="800" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">From manual to automated</text>
   
   <!-- Arrow marker -->
   <defs>
     <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="black"/>
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2c3e50"/>
     </marker>
   </defs>
+  
+  <!-- Bottom quote -->
+  <text x="960" y="900" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">"My job is to write loops." — Boris Cherny, head of Claude Code at Anthropic</text>
 </svg>

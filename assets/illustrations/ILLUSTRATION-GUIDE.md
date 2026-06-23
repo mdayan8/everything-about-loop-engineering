@@ -10,7 +10,7 @@ This guide provides shot lists and prompts for generating illustrations for the 
 - **Pure white background**
 - **Black hand-drawn line art** with slight wobble
 - **Lots of empty white space** (40-60% main subject, 35%+ blank)
-- **Sparse red/orange/blue handwritten Chinese annotations** (5-8 labels, 2-8 characters each)
+- **Sparse red/orange/blue handwritten English annotations** (5-8 labels, 2-8 words each)
 - **小黑 (Xiaohei)** as the core action character: solid black creature with white dot eyes, thin legs, blank serious expression
 
 ## Color Usage
@@ -33,7 +33,7 @@ This guide provides shot lists and prompts for generating illustrations for the 
 - **Structure Type**: Before/After comparison
 - **小黑 Action**: Left side: 小黑 manually typing at a computer; Right side: 小黑 designing a system diagram
 - **Suggested Elements**: Computer, prompt text, system diagram, automation arrows
-- **Chinese Labels**: 手动提示 / 系统设计 / 自动化 / 验证
+- **English Labels**: Manual Prompting / Loop Engineering / Transform / Auto Prompts
 
 **Prompt:**
 ```
@@ -81,7 +81,7 @@ One image explains only one core structure. Keep the main subject around 40%-60%
 - **Structure Type**: Method layering
 - **小黑 Action**: Three 小黑 characters at different levels: L1 reading a report, L2 proposing changes, L3 autonomously deploying
 - **Suggested Elements**: Three levels/platforms, report, proposal document, deployment arrow
-- **Chinese Labels**: L1 报告 / L2 建议 / L3 自主 / 风险递增
+- **English Labels**: L1 Report Only / L2 Assisted / L3 Unattended / Risk Level
 
 **Prompt:**
 ```
@@ -129,7 +129,7 @@ One image explains only one core structure. Keep the main subject around 40%-60%
 - **Structure Type**: System partial
 - **小黑 Action**: 小黑 assembling or connecting six different blocks/pieces
 - **Suggested Elements**: Six distinct blocks/pieces, connecting lines, assembly action
-- **Chinese Labels**: 自动化 / 工作树 / 技能 / 插件 / 子代理 / 记忆
+- **English Labels**: Automations / Worktrees / Skills / Plugins / Sub-Agents / Memory
 
 **Prompt:**
 ```
@@ -177,7 +177,7 @@ One image explains only one core structure. Keep the main subject around 40%-60%
 - **Structure Type**: Map route
 - **小黑 Action**: 小黑 navigating through six different stations/patterns
 - **Suggested Elements**: Six stations/patterns, path connecting them, different risk indicators
-- **Chinese Labels**: 每日分类 / 变更日志 / 合并清理 / 依赖更新 / PR 监控 / CI 检查
+- **English Labels**: Daily Triage / Changelog Drafter / Post-Merge Cleanup / Dependency Sweeper / PR Babysitter / CI Sweeper
 
 **Prompt:**
 ```
@@ -229,7 +229,7 @@ One image explains only one core structure. Keep the main subject around 40%-60%
 - **Structure Type**: Workflow
 - **小黑 Action**: 小黑 moving along a timeline from manual to automated
 - **Suggested Elements**: Timeline, manual prompt, automated loop, key milestones
-- **Chinese Labels**: 2025 手动 / 2026 自动化 / 拉尔夫循环 / 循环工程
+- **English Labels**: July 2025 / September 2025 / January 2026 / Early-Mid 2026 / June 2026
 
 ### Module 03: The Five Building Blocks
 
@@ -242,7 +242,7 @@ One image explains only one core structure. Keep the main subject around 40%-60%
 - **Structure Type**: Method layering
 - **小黑 Action**: 小黑 interacting with each block type
 - **Suggested Elements**: Five blocks, interaction examples, combination patterns
-- **Chinese Labels**: 自动化 / 工作树 / 技能 / 插件 / 子代理
+- **English Labels**: Automations / Worktrees / Skills / Plugins / Sub-Agents / Memory
 
 ### Module 05: The Maturity Model
 
@@ -255,7 +255,7 @@ One image explains only one core structure. Keep the main subject around 40%-60%
 - **Structure Type**: Method layering
 - **小黑 Action**: 小黑 at each level performing appropriate actions
 - **Suggested Elements**: Three levels, risk indicators, advancement criteria
-- **Chinese Labels**: L1 安全 / L2 谨慎 / L3 自主 / 风险评估
+- **English Labels**: L1 Report Only / L2 Assisted / L3 Unattended / Risk Level
 
 ### Module 06: Production Patterns
 
@@ -268,7 +268,7 @@ One image explains only one core structure. Keep the main subject around 40%-60%
 - **Structure Type**: System partial
 - **小黑 Action**: 小黑 operating each pattern
 - **Suggested Elements**: Pattern diagrams, cost indicators, frequency markers
-- **Chinese Labels**: 每日 / 每周 / 按需 / 低成本 / 高成本
+- **English Labels**: Daily Triage / Changelog Drafter / Post-Merge Cleanup / Dependency Sweeper / PR Babysitter / CI Sweeper
 
 ## Example Illustrations
 
@@ -283,7 +283,7 @@ One image explains only one core structure. Keep the main subject around 40%-60%
 - **Structure Type**: Workflow
 - **小黑 Action**: 小黑 sorting issues into categories
 - **Suggested Elements**: Issues, categories, sorting mechanism
-- **Chinese Labels**: 问题 / 分类 / 标签 / 自动化
+- **English Labels**: Daily Triage / L1 Pattern / Issue & PR categorization
 
 ### Code Quality Guardian Example
 
@@ -296,7 +296,7 @@ One image explains only one core structure. Keep the main subject around 40%-60%
 - **Structure Type**: System partial
 - **小黑 Action**: 小黑 coordinating multiple sub-agents
 - **Suggested Elements**: Main agent, sub-agents, verification process
-- **Chinese Labels**: 主代理 / 子代理 / 验证 / 报告
+- **English Labels**: Code Quality Guardian / Multi-Sub-Agent Pattern / Parallel verification
 
 ## Implementation Notes
 

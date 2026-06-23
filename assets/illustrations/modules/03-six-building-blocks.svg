@@ -3,88 +3,110 @@
   <rect width="100%" height="100%" fill="white"/>
   
   <!-- Title -->
-  <text x="960" y="80" text-anchor="middle" font-family="Arial" font-size="28" fill="black">循环工程的六大构建块</text>
+  <text x="960" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#2c3e50">THE SIX BUILDING BLOCKS</text>
+  <text x="960" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Components that make up a loop engineering system</text>
   
   <!-- Central 小黑 character -->
-  <circle cx="960" cy="540" r="40" fill="black"/>
-  <circle cx="948" cy="532" r="6" fill="white"/>
-  <circle cx="972" cy="532" r="6" fill="white"/>
-  <line x1="940" y1="580" x2="930" y2="650" stroke="black" stroke-width="3"/>
-  <line x1="980" y1="580" x2="990" y2="650" stroke="black" stroke-width="3"/>
+  <g transform="translate(960, 540)">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="50" ry="45" fill="#2c3e50"/>
+    <!-- Eyes -->
+    <circle cx="-15" cy="-10" r="7" fill="white"/>
+    <circle cx="15" cy="-10" r="7" fill="white"/>
+    <circle cx="-15" cy="-10" r="4" fill="#2c3e50"/>
+    <circle cx="15" cy="-10" r="4" fill="#2c3e50"/>
+    <!-- Arms -->
+    <line x1="-40" y1="10" x2="-80" y2="-30" stroke="#2c3e50" stroke-width="8" stroke-linecap="round"/>
+    <line x1="40" y1="10" x2="80" y2="-30" stroke="#2c3e50" stroke-width="8" stroke-linecap="round"/>
+    <!-- Hands -->
+    <circle cx="-80" cy="-30" r="10" fill="#2c3e50"/>
+    <circle cx="80" cy="-30" r="10" fill="#2c3e50"/>
+    <!-- Legs -->
+    <line x1="-20" y1="45" x2="-25" y2="100" stroke="#2c3e50" stroke-width="8" stroke-linecap="round"/>
+    <line x1="20" y1="45" x2="25" y2="100" stroke="#2c3e50" stroke-width="8" stroke-linecap="round"/>
+    <!-- Feet -->
+    <ellipse cx="-25" cy="110" rx="15" ry="8" fill="#2c3e50"/>
+    <ellipse cx="25" cy="110" rx="15" ry="8" fill="#2c3e50"/>
+  </g>
   
   <!-- Building block 1: Automations (top) -->
   <g transform="translate(960, 200)">
-    <rect x="-80" y="-30" width="160" height="60" fill="none" stroke="black" stroke-width="3" rx="5"/>
-    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="16" fill="black">自动化</text>
-    <text x="0" y="25" text-anchor="middle" font-family="Arial" font-size="12" fill="blue">调度/触发</text>
+    <rect x="-100" y="-40" width="200" height="80" fill="#3498db" stroke="#2980b9" stroke-width="3" rx="10"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">AUTOMATIONS</text>
+    <text x="0" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#d6eaf8">Schedule & trigger loops</text>
     
     <!-- Connection line to center -->
-    <line x1="0" y1="30" x2="0" y2="310" stroke="orange" stroke-width="2" stroke-dasharray="8,4"/>
+    <line x1="0" y1="40" x2="0" y2="300" stroke="#f39c12" stroke-width="3" stroke-dasharray="10,5"/>
   </g>
   
   <!-- Building block 2: Worktrees (top right) -->
-  <g transform="translate(1300, 350)">
-    <rect x="-80" y="-30" width="160" height="60" fill="none" stroke="black" stroke-width="3" rx="5"/>
-    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="16" fill="black">工作树</text>
-    <text x="0" y="25" text-anchor="middle" font-family="Arial" font-size="12" fill="blue">隔离并行</text>
+  <g transform="translate(1350, 350)">
+    <rect x="-100" y="-40" width="200" height="80" fill="#e67e22" stroke="#d35400" stroke-width="3" rx="10"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">WORKTREES</text>
+    <text x="0" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#fdebd0">Isolate parallel agents</text>
     
     <!-- Connection line to center -->
-    <line x1="-80" y1="0" x2="-260" y2="190" stroke="orange" stroke-width="2" stroke-dasharray="8,4"/>
+    <line x1="-100" y1="0" x2="-290" y2="190" stroke="#f39c12" stroke-width="3" stroke-dasharray="10,5"/>
   </g>
   
   <!-- Building block 3: Skills (right) -->
-  <g transform="translate(1400, 540)">
-    <rect x="-80" y="-30" width="160" height="60" fill="none" stroke="black" stroke-width="3" rx="5"/>
-    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="16" fill="black">技能</text>
-    <text x="0" y="25" text-anchor="middle" font-family="Arial" font-size="12" fill="blue">项目上下文</text>
+  <g transform="translate(1450, 540)">
+    <rect x="-100" y="-40" width="200" height="80" fill="#2ecc71" stroke="#27ae60" stroke-width="3" rx="10"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">SKILLS</text>
+    <text x="0" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#d5f5e3">Project context for agents</text>
     
     <!-- Connection line to center -->
-    <line x1="-80" y1="0" x2="-360" y2="0" stroke="orange" stroke-width="2" stroke-dasharray="8,4"/>
+    <line x1="-100" y1="0" x2="-390" y2="0" stroke="#f39c12" stroke-width="3" stroke-dasharray="10,5"/>
   </g>
   
   <!-- Building block 4: Plugins (bottom right) -->
-  <g transform="translate(1300, 730)">
-    <rect x="-80" y="-30" width="160" height="60" fill="none" stroke="black" stroke-width="3" rx="5"/>
-    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="16" fill="black">插件</text>
-    <text x="0" y="25" text-anchor="middle" font-family="Arial" font-size="12" fill="blue">外部工具</text>
+  <g transform="translate(1350, 730)">
+    <rect x="-100" y="-40" width="200" height="80" fill="#9b59b6" stroke="#8e44ad" stroke-width="3" rx="10"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">PLUGINS</text>
+    <text x="0" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#e8daef">External tool access</text>
     
     <!-- Connection line to center -->
-    <line x1="-80" y1="0" x2="-260" y2="-190" stroke="orange" stroke-width="2" stroke-dasharray="8,4"/>
+    <line x1="-100" y1="0" x2="-290" y2="-190" stroke="#f39c12" stroke-width="3" stroke-dasharray="10,5"/>
   </g>
   
   <!-- Building block 5: Sub-Agents (bottom) -->
   <g transform="translate(960, 880)">
-    <rect x="-80" y="-30" width="160" height="60" fill="none" stroke="black" stroke-width="3" rx="5"/>
-    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="16" fill="black">子代理</text>
-    <text x="0" y="25" text-anchor="middle" font-family="Arial" font-size="12" fill="blue">独立验证</text>
+    <rect x="-100" y="-40" width="200" height="80" fill="#e74c3c" stroke="#c0392b" stroke-width="3" rx="10"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">SUB-AGENTS</text>
+    <text x="0" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#fadbd8">Independent verification</text>
     
     <!-- Connection line to center -->
-    <line x1="0" y1="-30" x2="0" y2="-310" stroke="orange" stroke-width="2" stroke-dasharray="8,4"/>
+    <line x1="0" y1="-40" x2="0" y2="-290" stroke="#f39c12" stroke-width="3" stroke-dasharray="10,5"/>
   </g>
   
   <!-- Building block 6: Memory (bottom left) -->
-  <g transform="translate(620, 730)">
-    <rect x="-80" y="-30" width="160" height="60" fill="none" stroke="black" stroke-width="3" rx="5"/>
-    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="16" fill="black">记忆</text>
-    <text x="0" y="25" text-anchor="middle" font-family="Arial" font-size="12" fill="blue">持久状态</text>
+  <g transform="translate(570, 730)">
+    <rect x="-100" y="-40" width="200" height="80" fill="#1abc9c" stroke="#16a085" stroke-width="3" rx="10"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">MEMORY</text>
+    <text x="0" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#d1f2eb">Persistent state files</text>
     
     <!-- Connection line to center -->
-    <line x1="80" y1="0" x2="260" y2="-190" stroke="orange" stroke-width="2" stroke-dasharray="8,4"/>
+    <line x1="100" y1="0" x2="290" y2="-190" stroke="#f39c12" stroke-width="3" stroke-dasharray="10,5"/>
   </g>
   
   <!-- Connection label -->
-  <g transform="translate(520, 540)">
-    <text x="0" y="0" text-anchor="middle" font-family="Arial" font-size="14" fill="red">组合</text>
-    <text x="0" y="20" text-anchor="middle" font-family="Arial" font-size="14" fill="red">协作</text>
+  <g transform="translate(470, 540)">
+    <text x="0" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#f39c12">COMBINE</text>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">&</text>
+    <text x="0" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#f39c12">COORDINATE</text>
     
     <!-- Connection line to center -->
-    <line x1="80" y1="0" x2="360" y2="0" stroke="orange" stroke-width="2" stroke-dasharray="8,4"/>
+    <line x1="100" y1="0" x2="390" y2="0" stroke="#f39c12" stroke-width="3" stroke-dasharray="10,5"/>
   </g>
   
   <!-- Additional connection lines between blocks -->
-  <line x1="1040" y1="230" x2="1220" y2="320" stroke="black" stroke-width="1" stroke-dasharray="4,4"/>
-  <line x1="1380" y1="380" x2="1380" y2="510" stroke="black" stroke-width="1" stroke-dasharray="4,4"/>
-  <line x1="1320" y1="700" x2="1040" y2="850" stroke="black" stroke-width="1" stroke-dasharray="4,4"/>
-  <line x1="640" y1="700" x2="920" y2="850" stroke="black" stroke-width="1" stroke-dasharray="4,4"/>
-  <line x1="540" y1="510" x2="920" y2="540" stroke="black" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="1060" y1="230" x2="1250" y2="310" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="1450" y1="380" x2="1450" y2="500" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="1350" y1="700" x2="1060" y2="850" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="570" y1="700" x2="920" y2="850" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="470" y1="510" x2="920" y2="540" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Bottom annotation -->
+  <text x="960" y="1000" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">A minimal loop needs only 2 components: Memory + Automations</text>
+  <text x="960" y="1030" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#95a5a6">Production loops typically use 4-5 components</text>
 </svg>

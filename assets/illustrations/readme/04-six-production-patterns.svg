@@ -3,121 +3,176 @@
   <rect width="100%" height="100%" fill="white"/>
   
   <!-- Title -->
-  <text x="960" y="80" text-anchor="middle" font-family="Arial" font-size="28" fill="black">六大生产模式</text>
+  <text x="960" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#2c3e50">THE SIX PRODUCTION PATTERNS</text>
+  <text x="960" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Battle-tested loop patterns from low-cost to high-frequency</text>
   
   <!-- Path/route -->
   <path d="M 200 500 Q 400 300 600 500 Q 800 700 1000 500 Q 1200 300 1400 500 Q 1600 700 1800 500" 
-        fill="none" stroke="orange" stroke-width="4" stroke-dasharray="10,5"/>
+        fill="none" stroke="#f39c12" stroke-width="6" stroke-dasharray="12,6"/>
   
   <!-- Pattern 1: Daily Triage -->
   <g transform="translate(300, 400)">
-    <circle cx="0" cy="0" r="30" fill="none" stroke="black" stroke-width="2"/>
-    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="12" fill="black">分类</text>
-    <text x="0" y="25" text-anchor="middle" font-family="Arial" font-size="10" fill="blue">每日</text>
+    <circle cx="0" cy="0" r="40" fill="#3498db" stroke="#2980b9" stroke-width="3"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">DAILY</text>
+    <text x="0" y="10" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">TRIAGE</text>
     
     <!-- 小黑 at this station -->
-    <circle cx="0" cy="60" r="15" fill="black"/>
-    <circle cx="-3" cy="58" r="2" fill="white"/>
-    <circle cx="3" cy="58" r="2" fill="white"/>
+    <g transform="translate(0, 70)">
+      <!-- Body -->
+      <ellipse cx="0" cy="0" rx="20" ry="18" fill="#2c3e50"/>
+      <!-- Eyes -->
+      <circle cx="-6" cy="-4" r="3" fill="white"/>
+      <circle cx="6" cy="-4" r="3" fill="white"/>
+      <!-- Legs -->
+      <line x1="-8" y1="18" x2="-10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+      <line x1="8" y1="18" x2="10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+    </g>
     
     <!-- Label -->
-    <text x="0" y="90" text-anchor="middle" font-family="Arial" font-size="14" fill="red">每日分类</text>
+    <text x="0" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3498db">Daily Triage</text>
+    <text x="0" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Once daily • L1 • Low cost</text>
   </g>
   
   <!-- Pattern 2: Changelog Drafter -->
   <g transform="translate(600, 600)">
-    <circle cx="0" cy="0" r="30" fill="none" stroke="black" stroke-width="2"/>
-    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="12" fill="black">日志</text>
-    <text x="0" y="25" text-anchor="middle" font-family="Arial" font-size="10" fill="blue">每日</text>
+    <circle cx="0" cy="0" r="40" fill="#2ecc71" stroke="#27ae60" stroke-width="3"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">CHANGELOG</text>
+    <text x="0" y="10" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">DRAFTER</text>
     
     <!-- 小黑 at this station -->
-    <circle cx="0" cy="60" r="15" fill="black"/>
-    <circle cx="-3" cy="58" r="2" fill="white"/>
-    <circle cx="3" cy="58" r="2" fill="white"/>
+    <g transform="translate(0, 70)">
+      <!-- Body -->
+      <ellipse cx="0" cy="0" rx="20" ry="18" fill="#2c3e50"/>
+      <!-- Eyes -->
+      <circle cx="-6" cy="-4" r="3" fill="white"/>
+      <circle cx="6" cy="-4" r="3" fill="white"/>
+      <!-- Legs -->
+      <line x1="-8" y1="18" x2="-10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+      <line x1="8" y1="18" x2="10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+    </g>
     
     <!-- Label -->
-    <text x="0" y="90" text-anchor="middle" font-family="Arial" font-size="14" fill="red">变更日志</text>
+    <text x="0" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2ecc71">Changelog Drafter</text>
+    <text x="0" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Daily • L1 • Low cost</text>
   </g>
   
   <!-- Pattern 3: Post-Merge Cleanup -->
   <g transform="translate(900, 400)">
-    <circle cx="0" cy="0" r="30" fill="none" stroke="black" stroke-width="2"/>
-    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="12" fill="black">清理</text>
-    <text x="0" y="25" text-anchor="middle" font-family="Arial" font-size="10" fill="blue">1-6小时</text>
+    <circle cx="0" cy="0" r="40" fill="#9b59b6" stroke="#8e44ad" stroke-width="3"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">POST-MERGE</text>
+    <text x="0" y="10" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">CLEANUP</text>
     
     <!-- 小黑 at this station -->
-    <circle cx="0" cy="60" r="15" fill="black"/>
-    <circle cx="-3" cy="58" r="2" fill="white"/>
-    <circle cx="3" cy="58" r="2" fill="white"/>
+    <g transform="translate(0, 70)">
+      <!-- Body -->
+      <ellipse cx="0" cy="0" rx="20" ry="18" fill="#2c3e50"/>
+      <!-- Eyes -->
+      <circle cx="-6" cy="-4" r="3" fill="white"/>
+      <circle cx="6" cy="-4" r="3" fill="white"/>
+      <!-- Legs -->
+      <line x1="-8" y1="18" x2="-10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+      <line x1="8" y1="18" x2="10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+    </g>
     
     <!-- Label -->
-    <text x="0" y="90" text-anchor="middle" font-family="Arial" font-size="14" fill="red">合并清理</text>
+    <text x="0" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#9b59b6">Post-Merge Cleanup</text>
+    <text x="0" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">1-6h • L1 • Low cost</text>
   </g>
   
   <!-- Pattern 4: Dependency Sweeper -->
   <g transform="translate(1200, 600)">
-    <circle cx="0" cy="0" r="30" fill="none" stroke="black" stroke-width="2"/>
-    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="12" fill="black">依赖</text>
-    <text x="0" y="25" text-anchor="middle" font-family="Arial" font-size="10" fill="blue">6小时-1天</text>
+    <circle cx="0" cy="0" r="40" fill="#e67e22" stroke="#d35400" stroke-width="3"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">DEPENDENCY</text>
+    <text x="0" y="10" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">SWEEPER</text>
     
     <!-- 小黑 at this station -->
-    <circle cx="0" cy="60" r="15" fill="black"/>
-    <circle cx="-3" cy="58" r="2" fill="white"/>
-    <circle cx="3" cy="58" r="2" fill="white"/>
+    <g transform="translate(0, 70)">
+      <!-- Body -->
+      <ellipse cx="0" cy="0" rx="20" ry="18" fill="#2c3e50"/>
+      <!-- Eyes -->
+      <circle cx="-6" cy="-4" r="3" fill="white"/>
+      <circle cx="6" cy="-4" r="3" fill="white"/>
+      <!-- Legs -->
+      <line x1="-8" y1="18" x2="-10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+      <line x1="8" y1="18" x2="10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+    </g>
     
     <!-- Label -->
-    <text x="0" y="90" text-anchor="middle" font-family="Arial" font-size="14" fill="red">依赖更新</text>
+    <text x="0" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#e67e22">Dependency Sweeper</text>
+    <text x="0" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">6h-1d • L2 • Medium cost</text>
   </g>
   
   <!-- Pattern 5: PR Babysitter -->
   <g transform="translate(1500, 400)">
-    <circle cx="0" cy="0" r="30" fill="none" stroke="black" stroke-width="2"/>
-    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="12" fill="black">PR</text>
-    <text x="0" y="25" text-anchor="middle" font-family="Arial" font-size="10" fill="blue">5-15分钟</text>
+    <circle cx="0" cy="0" r="40" fill="#e74c3c" stroke="#c0392b" stroke-width="3"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">PR</text>
+    <text x="0" y="10" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">BABYSITTER</text>
     
     <!-- 小黑 at this station -->
-    <circle cx="0" cy="60" r="15" fill="black"/>
-    <circle cx="-3" cy="58" r="2" fill="white"/>
-    <circle cx="3" cy="58" r="2" fill="white"/>
+    <g transform="translate(0, 70)">
+      <!-- Body -->
+      <ellipse cx="0" cy="0" rx="20" ry="18" fill="#2c3e50"/>
+      <!-- Eyes -->
+      <circle cx="-6" cy="-4" r="3" fill="white"/>
+      <circle cx="6" cy="-4" r="3" fill="white"/>
+      <!-- Legs -->
+      <line x1="-8" y1="18" x2="-10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+      <line x1="8" y1="18" x2="10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+    </g>
     
     <!-- Label -->
-    <text x="0" y="90" text-anchor="middle" font-family="Arial" font-size="14" fill="red">PR监控</text>
+    <text x="0" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#e74c3c">PR Babysitter</text>
+    <text x="0" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">5-15min • L1 • High cost</text>
   </g>
   
   <!-- Pattern 6: CI Sweeper -->
   <g transform="translate(1800, 600)">
-    <circle cx="0" cy="0" r="30" fill="none" stroke="black" stroke-width="2"/>
-    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="12" fill="black">CI</text>
-    <text x="0" y="25" text-anchor="middle" font-family="Arial" font-size="10" fill="blue">5-15分钟</text>
+    <circle cx="0" cy="0" r="40" fill="#c0392b" stroke="#a93226" stroke-width="3"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">CI</text>
+    <text x="0" y="10" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">SWEEPER</text>
     
     <!-- 小黑 at this station -->
-    <circle cx="0" cy="60" r="15" fill="black"/>
-    <circle cx="-3" cy="58" r="2" fill="white"/>
-    <circle cx="3" cy="58" r="2" fill="white"/>
+    <g transform="translate(0, 70)">
+      <!-- Body -->
+      <ellipse cx="0" cy="0" rx="20" ry="18" fill="#2c3e50"/>
+      <!-- Eyes -->
+      <circle cx="-6" cy="-4" r="3" fill="white"/>
+      <circle cx="6" cy="-4" r="3" fill="white"/>
+      <!-- Legs -->
+      <line x1="-8" y1="18" x2="-10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+      <line x1="8" y1="18" x2="10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+    </g>
     
     <!-- Label -->
-    <text x="0" y="90" text-anchor="middle" font-family="Arial" font-size="14" fill="red">CI检查</text>
+    <text x="0" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#c0392b">CI Sweeper</text>
+    <text x="0" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">5-15min • L2 • Very high cost</text>
   </g>
   
   <!-- Risk/Cost indicator -->
   <g transform="translate(100, 200)">
-    <text x="0" y="0" font-family="Arial" font-size="16" fill="black">成本/风险</text>
-    <rect x="0" y="20" width="120" height="30" fill="none" stroke="green" stroke-width="2"/>
-    <text x="60" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="green">低</text>
-    <rect x="0" y="60" width="120" height="30" fill="none" stroke="orange" stroke-width="2"/>
-    <text x="60" y="80" text-anchor="middle" font-family="Arial" font-size="12" fill="orange">中</text>
-    <rect x="0" y="100" width="120" height="30" fill="none" stroke="red" stroke-width="2"/>
-    <text x="60" y="120" text-anchor="middle" font-family="Arial" font-size="12" fill="red">高</text>
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">COST / RISK</text>
+    
+    <rect x="0" y="30" width="150" height="40" fill="#27ae60" stroke="#229954" stroke-width="2" rx="5"/>
+    <text x="75" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">LOW</text>
+    
+    <rect x="0" y="80" width="150" height="40" fill="#f39c12" stroke="#e67e22" stroke-width="2" rx="5"/>
+    <text x="75" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">MEDIUM</text>
+    
+    <rect x="0" y="130" width="150" height="40" fill="#e74c3c" stroke="#c0392b" stroke-width="2" rx="5"/>
+    <text x="75" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">HIGH</text>
   </g>
   
   <!-- Direction arrow -->
-  <path d="M 200 700 L 1800 700" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
-  <text x="1000" y="750" text-anchor="middle" font-family="Arial" font-size="14" fill="black">从低风险到高风险</text>
+  <path d="M 200 700 L 1800 700" fill="none" stroke="#2c3e50" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <text x="1000" y="750" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">From low risk to high risk</text>
   
   <!-- Arrow marker -->
   <defs>
     <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="black"/>
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2c3e50"/>
     </marker>
   </defs>
+  
+  <!-- Bottom recommendation -->
+  <text x="960" y="1000" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Start with Changelog Drafter or Daily Triage — lowest risk, immediate value</text>
 </svg>

@@ -20,13 +20,13 @@ echo "=== README ILLUSTRATIONS ==="
 echo ""
 
 echo "1. Big Idea Transformation"
-echo "File: assets/illustrations/readme/01-big-idea-transformation.png"
+echo "File: assets/illustrations/readme/01-big-idea-transformation.svg"
 echo "Prompt:"
 cat << 'EOF'
-Generate one standalone 16:9 horizontal Chinese article illustration.
+Generate one standalone 16:9 horizontal English article illustration.
 
 Visual DNA:
-Pure white background. Minimalist black hand-drawn line art. Slightly wobbly pen lines. Lots of empty white space. Sparse red/orange/blue handwritten Chinese annotations. Clean absurd product-sketch feeling. No gradients, no shadows, no paper texture, no complex background, no commercial vector style, no PPT infographic look, no cute mascot poster, no children's illustration, no realistic UI.
+Pure white background. Minimalist black hand-drawn line art. Slightly wobbly pen lines. Lots of empty white space. Sparse red/orange/blue handwritten English annotations. Clean absurd product-sketch feeling. No gradients, no shadows, no paper texture, no complex background, no commercial vector style, no PPT infographic look, no cute mascot poster, no children's illustration, no realistic UI.
 
 Recurring IP character required:
 小黑, a small solid-black absurd creature with white dot eyes, tiny thin legs, blank serious expression, slightly uneven hand-drawn body shape. 小黑 must perform the core conceptual action, not decorate the scene. Make 小黑 serious, deadpan, and slightly bizarre, not cute.
@@ -46,14 +46,14 @@ Left side: 小黑 manually typing at a computer with prompt text floating above;
 Suggested elements:
 Computer / prompt text / system diagram / automation arrows
 
-Chinese handwritten labels:
-手动提示 / 系统设计 / 自动化 / 验证
+English handwritten labels:
+Manual Prompting / Loop Engineering / Transform / Auto Prompts
 
 Color use:
 Black for main line art and 小黑. Orange for main flow/path/arrows. Red only for key warnings/problems/results. Blue only for secondary notes or feedback/system state.
 
 Constraints:
-One image explains only one core structure. Keep the main subject around 40%-60% of the canvas. Preserve at least 35% blank white space. Use at most 5-8 short handwritten Chinese labels. Do not write a title in the top-left corner. Do not write the structure type on the image. Do not make it a formal diagram, course slide, or dense explainer. Do not copy prior examples or reuse known case compositions unless explicitly requested; invent a fresh visual metaphor for this specific article. It should be clear but not instructional, interesting but not childish, strange but clean.
+One image explains only one core structure. Keep the main subject around 40%-60% of the canvas. Preserve at least 35% blank white space. Use at most 5-8 short handwritten English labels. Do not write a title in the top-left corner. Do not write the structure type on the image. Do not make it a formal diagram, course slide, or dense explainer. Do not copy prior examples or reuse known case compositions unless explicitly requested; invent a fresh visual metaphor for this specific article. It should be clear but not instructional, interesting but not childish, strange but clean.
 EOF
 
 echo ""
@@ -61,7 +61,7 @@ echo "2. Maturity Model"
 echo "File: assets/illustrations/readme/02-maturity-model.png"
 echo "Prompt:"
 cat << 'EOF'
-Generate one standalone 16:9 horizontal Chinese article illustration.
+Generate one standalone 16:9 horizontal English article illustration.
 
 Visual DNA:
 Pure white background. Minimalist black hand-drawn line art. Slightly wobbly pen lines. Lots of empty white space. Sparse red/orange/blue handwritten Chinese annotations. Clean absurd product-sketch feeling. No gradients, no shadows, no paper texture, no complex background, no commercial vector style, no PPT infographic look, no cute mascot poster, no children's illustration, no realistic UI.
@@ -84,8 +84,8 @@ Three horizontal levels/platforms stacked vertically; Bottom level: 小黑 readi
 Suggested elements:
 Three levels/platforms / report / proposal document / deployment arrow
 
-Chinese handwritten labels:
-L1 报告 / L2 建议 / L3 自主 / 风险递增
+English handwritten labels:
+L1 Report Only / L2 Assisted / L3 Unattended / Risk Level
 
 Color use:
 Black for main line art and 小黑. Orange for main flow/path/arrows. Red only for key warnings/problems/results. Blue only for secondary notes or feedback/system state.
@@ -99,7 +99,7 @@ echo "3. Six Building Blocks"
 echo "File: assets/illustrations/readme/03-six-building-blocks.png"
 echo "Prompt:"
 cat << 'EOF'
-Generate one standalone 16:9 horizontal Chinese article illustration.
+Generate one standalone 16:9 horizontal English article illustration.
 
 Visual DNA:
 Pure white background. Minimalist black hand-drawn line art. Slightly wobbly pen lines. Lots of empty white space. Sparse red/orange/blue handwritten Chinese annotations. Clean absurd product-sketch feeling. No gradients, no shadows, no paper texture, no complex background, no commercial vector style, no PPT infographic look, no cute mascot poster, no children's illustration, no realistic UI.
@@ -122,8 +122,8 @@ Composition:
 Suggested elements:
 Six distinct blocks/pieces / connecting lines / assembly action
 
-Chinese handwritten labels:
-自动化 / 工作树 / 技能 / 插件 / 子代理 / 记忆
+English handwritten labels:
+Automations / Worktrees / Skills / Plugins / Sub-Agents / Memory
 
 Color use:
 Black for main line art and 小黑. Orange for main flow/path/arrows. Red only for key warnings/problems/results. Blue only for secondary notes or feedback/system state.
@@ -137,7 +137,7 @@ echo "4. Six Production Patterns"
 echo "File: assets/illustrations/readme/04-six-production-patterns.png"
 echo "Prompt:"
 cat << 'EOF'
-Generate one standalone 16:9 horizontal Chinese article illustration.
+Generate one standalone 16:9 horizontal English article illustration.
 
 Visual DNA:
 Pure white background. Minimalist black hand-drawn line art. Slightly wobbly pen lines. Lots of empty white space. Sparse red/orange/blue handwritten Chinese annotations. Clean absurd product-sketch feeling. No gradients, no shadows, no paper texture, no complex background, no commercial vector style, no PPT infographic look, no cute mascot poster, no children's illustration, no realistic UI.
@@ -160,8 +160,8 @@ Composition:
 Suggested elements:
 Six stations/patterns / path connecting them / risk indicators
 
-Chinese handwritten labels:
-每日分类 / 变更日志 / 合并清理 / 依赖更新 / PR 监控 / CI 检查
+English handwritten labels:
+Daily Triage / Changelog Drafter / Post-Merge Cleanup / Dependency Sweeper / PR Babysitter / CI Sweeper
 
 Color use:
 Black for main line art and 小黑. Orange for main flow/path/arrows. Red only for key warnings/problems/results. Blue only for secondary notes or feedback/system state.
@@ -178,7 +178,7 @@ echo "5. Module 02: Loop Engineering Concept"
 echo "File: assets/illustrations/modules/02-loop-engineering-concept.png"
 echo "Prompt:"
 cat << 'EOF'
-Generate one standalone 16:9 horizontal Chinese article illustration.
+Generate one standalone 16:9 horizontal English article illustration.
 
 Visual DNA:
 Pure white background. Minimalist black hand-drawn line art. Slightly wobbly pen lines. Lots of empty white space. Sparse red/orange/blue handwritten Chinese annotations. Clean absurd product-sketch feeling. No gradients, no shadows, no paper texture, no complex background, no commercial vector style, no PPT infographic look, no cute mascot poster, no children's illustration, no realistic UI.
@@ -201,8 +201,8 @@ Composition:
 Suggested elements:
 Machine/device / prompt generation / codebase status / automation
 
-Chinese handwritten labels:
-循环工程 / 自动提示 / 系统设计 / 验证
+English handwritten labels:
+Loop Engineering / Auto Prompts / System Design / Verification
 
 Color use:
 Black for main line art and 小黑. Orange for main flow/path/arrows. Red only for key warnings/problems/results. Blue only for secondary notes or feedback/system state.
@@ -216,7 +216,7 @@ echo "6. Module 02: Timeline Evolution"
 echo "File: assets/illustrations/modules/02-timeline-evolution.png"
 echo "Prompt:"
 cat << 'EOF'
-Generate one standalone 16:9 horizontal Chinese article illustration.
+Generate one standalone 16:9 horizontal English article illustration.
 
 Visual DNA:
 Pure white background. Minimalist black hand-drawn line art. Slightly wobbly pen lines. Lots of empty white space. Sparse red/orange/blue handwritten Chinese annotations. Clean absurd product-sketch feeling. No gradients, no shadows, no paper texture, no complex background, no commercial vector style, no PPT infographic look, no cute mascot poster, no children's illustration, no realistic UI.
@@ -239,8 +239,8 @@ A winding path/timeline from left to right; Key milestones marked along the path
 Suggested elements:
 Timeline/path / milestones / manual prompt / automated loop / key dates
 
-Chinese handwritten labels:
-2025 手动 / 2026 自动化 / 拉尔夫循环 / 循环工程
+English handwritten labels:
+July 2025 / September 2025 / January 2026 / Early-Mid 2026 / June 2026
 
 Color use:
 Black for main line art and 小黑. Orange for main flow/path/arrows. Red only for key warnings/problems/results. Blue only for secondary notes or feedback/system state.
@@ -254,7 +254,7 @@ echo "7. Module 03: Six Building Blocks (Detailed)"
 echo "File: assets/illustrations/modules/03-six-building-blocks.png"
 echo "Prompt:"
 cat << 'EOF'
-Generate one standalone 16:9 horizontal Chinese article illustration.
+Generate one standalone 16:9 horizontal English article illustration.
 
 Visual DNA:
 Pure white background. Minimalist black hand-drawn line art. Slightly wobbly pen lines. Lots of empty white space. Sparse red/orange/blue handwritten Chinese annotations. Clean absurd product-sketch feeling. No gradients, no shadows, no paper texture, no complex background, no commercial vector style, no PPT infographic look, no cute mascot poster, no children's illustration, no realistic UI.
@@ -277,8 +277,8 @@ Composition:
 Suggested elements:
 Six blocks with labels / connecting lines / interaction example
 
-Chinese handwritten labels:
-自动化 / 工作树 / 技能 / 插件 / 子代理 / 记忆
+English handwritten labels:
+Automations / Worktrees / Skills / Plugins / Sub-Agents / Memory
 
 Color use:
 Black for main line art and 小黑. Orange for main flow/path/arrows. Red only for key warnings/problems/results. Blue only for secondary notes or feedback/system state.
@@ -292,7 +292,7 @@ echo "8. Module 05: Maturity Model (Detailed)"
 echo "File: assets/illustrations/modules/05-maturity-model.png"
 echo "Prompt:"
 cat << 'EOF'
-Generate one standalone 16:9 horizontal Chinese article illustration.
+Generate one standalone 16:9 horizontal English article illustration.
 
 Visual DNA:
 Pure white background. Minimalist black hand-drawn line art. Slightly wobbly pen lines. Lots of empty white space. Sparse red/orange/blue handwritten Chinese annotations. Clean absurd product-sketch feeling. No gradients, no shadows, no paper texture, no complex background, no commercial vector style, no PPT infographic look, no cute mascot poster, no children's illustration, no realistic UI.
@@ -315,7 +315,7 @@ Three distinct levels/platforms; Each level has a 小黑 performing appropriate 
 Suggested elements:
 Three levels / report / proposal / deployment / risk indicators
 
-Chinese handwritten labels:
+English handwritten labels:
 L1 安全 / L2 谨慎 / L3 自主 / 风险评估
 
 Color use:
@@ -330,7 +330,7 @@ echo "9. Module 06: Six Production Patterns (Detailed)"
 echo "File: assets/illustrations/modules/06-six-patterns.png"
 echo "Prompt:"
 cat << 'EOF'
-Generate one standalone 16:9 horizontal Chinese article illustration.
+Generate one standalone 16:9 horizontal English article illustration.
 
 Visual DNA:
 Pure white background. Minimalist black hand-drawn line art. Slightly wobbly pen lines. Lots of empty white space. Sparse red/orange/blue handwritten Chinese annotations. Clean absurd product-sketch feeling. No gradients, no shadows, no paper texture, no complex background, no commercial vector style, no PPT infographic look, no cute mascot poster, no children's illustration, no realistic UI.
@@ -353,8 +353,8 @@ Composition:
 Suggested elements:
 Six stations/patterns / path connecting them / risk/cost indicators / cadence markers
 
-Chinese handwritten labels:
-每日分类 / 变更日志 / 合并清理 / 依赖更新 / PR 监控 / CI 检查
+English handwritten labels:
+Daily Triage / Changelog Drafter / Post-Merge Cleanup / Dependency Sweeper / PR Babysitter / CI Sweeper
 
 Color use:
 Black for main line art and 小黑. Orange for main flow/path/arrows. Red only for key warnings/problems/results. Blue only for secondary notes or feedback/system state.
@@ -371,7 +371,7 @@ echo "10. Examples Overview"
 echo "File: assets/illustrations/examples/01-examples-overview.png"
 echo "Prompt:"
 cat << 'EOF'
-Generate one standalone 16:9 horizontal Chinese article illustration.
+Generate one standalone 16:9 horizontal English article illustration.
 
 Visual DNA:
 Pure white background. Minimalist black hand-drawn line art. Slightly wobbly pen lines. Lots of empty white space. Sparse red/orange/blue handwritten Chinese annotations. Clean absurd product-sketch feeling. No gradients, no shadows, no paper texture, no complex background, no commercial vector style, no PPT infographic look, no cute mascot poster, no children's illustration, no realistic UI.
@@ -394,8 +394,8 @@ Composition:
 Suggested elements:
 Three example stations / connecting lines / example labels
 
-Chinese handwritten labels:
-每日分类 / 变更日志 / 代码质量 / 实践示例
+English handwritten labels:
+Daily Triage / Changelog Drafter / Code Quality Guardian / Practical Examples
 
 Color use:
 Black for main line art and 小黑. Orange for main flow/path/arrows. Red only for key warnings/problems/results. Blue only for secondary notes or feedback/system state.

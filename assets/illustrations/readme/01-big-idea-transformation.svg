@@ -2,81 +2,142 @@
   <!-- Pure white background -->
   <rect width="100%" height="100%" fill="white"/>
   
+  <!-- Title -->
+  <text x="960" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#2c3e50">FROM PROMPTING TO LOOP ENGINEERING</text>
+  
   <!-- Left side: Manual Prompting -->
-  <g transform="translate(200, 300)">
+  <g transform="translate(200, 250)">
+    <!-- Section title -->
+    <text x="200" y="-20" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#e74c3c">THE OLD WAY</text>
+    
     <!-- Computer screen -->
-    <rect x="0" y="0" width="300" height="200" fill="none" stroke="black" stroke-width="3" rx="5"/>
-    <rect x="10" y="10" width="280" height="180" fill="none" stroke="black" stroke-width="1"/>
+    <rect x="50" y="0" width="300" height="200" fill="#f8f9fa" stroke="#34495e" stroke-width="4" rx="10"/>
+    <rect x="60" y="10" width="280" height="180" fill="white" stroke="#bdc3c7" stroke-width="2"/>
+    
+    <!-- Screen content -->
+    <text x="200" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">Terminal Output</text>
+    <line x1="70" y1="60" x2="330" y2="60" stroke="#ecf0f1" stroke-width="1"/>
     
     <!-- Prompt text on screen -->
-    <text x="150" y="80" text-anchor="middle" font-family="Arial" font-size="14" fill="black">"Fix this bug"</text>
-    <text x="150" y="100" text-anchor="middle" font-family="Arial" font-size="14" fill="black">"Add this feature"</text>
-    <text x="150" y="120" text-anchor="middle" font-family="Arial" font-size="14" fill="black">"Refactor this code"</text>
+    <text x="80" y="80" font-family="monospace" font-size="14" fill="#27ae60">$ claude "Fix this bug"</text>
+    <text x="80" y="100" font-family="monospace" font-size="14" fill="#3498db">Agent: I'll fix the bug...</text>
+    <text x="80" y="120" font-family="monospace" font-size="14" fill="#27ae60">$ claude "Add this feature"</text>
+    <text x="80" y="140" font-family="monospace" font-size="14" fill="#3498db">Agent: I'll add the feature...</text>
+    <text x="80" y="160" font-family="monospace" font-size="14" fill="#27ae60">$ claude "Refactor this code"</text>
     
     <!-- Keyboard -->
-    <rect x="50" y="220" width="200" height="60" fill="none" stroke="black" stroke-width="2" rx="3"/>
+    <rect x="100" y="220" width="200" height="50" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2" rx="5"/>
+    <rect x="120" y="230" width="160" height="30" fill="#bdc3c7" stroke="#95a5a6" stroke-width="1" rx="3"/>
     
     <!-- 小黑 character (left side - manually typing) -->
-    <circle cx="150" cy="350" r="25" fill="black"/>
-    <circle cx="142" cy="345" r="4" fill="white"/>
-    <circle cx="158" cy="345" r="4" fill="white"/>
-    <line x1="140" y1="375" x2="135" y2="420" stroke="black" stroke-width="2"/>
-    <line x1="160" y1="375" x2="165" y2="420" stroke="black" stroke-width="2"/>
+    <g transform="translate(200, 350)">
+      <!-- Body -->
+      <ellipse cx="0" cy="0" rx="40" ry="35" fill="#2c3e50"/>
+      <!-- Eyes -->
+      <circle cx="-12" cy="-8" r="6" fill="white"/>
+      <circle cx="12" cy="-8" r="6" fill="white"/>
+      <circle cx="-12" cy="-8" r="3" fill="#2c3e50"/>
+      <circle cx="12" cy="-8" r="3" fill="#2c3e50"/>
+      <!-- Arms -->
+      <line x1="-30" y1="10" x2="-60" y2="-20" stroke="#2c3e50" stroke-width="6" stroke-linecap="round"/>
+      <line x1="30" y1="10" x2="60" y2="-20" stroke="#2c3e50" stroke-width="6" stroke-linecap="round"/>
+      <!-- Hands -->
+      <circle cx="-60" cy="-20" r="8" fill="#2c3e50"/>
+      <circle cx="60" cy="-20" r="8" fill="#2c3e50"/>
+      <!-- Legs -->
+      <line x1="-15" y1="35" x2="-20" y2="80" stroke="#2c3e50" stroke-width="6" stroke-linecap="round"/>
+      <line x1="15" y1="35" x2="20" y2="80" stroke="#2c3e50" stroke-width="6" stroke-linecap="round"/>
+      <!-- Feet -->
+      <ellipse cx="-20" cy="85" rx="12" ry="6" fill="#2c3e50"/>
+      <ellipse cx="20" cy="85" rx="12" ry="6" fill="#2c3e50"/>
+    </g>
     
     <!-- Typing action lines -->
-    <line x1="120" y1="300" x2="100" y2="280" stroke="black" stroke-width="1" stroke-dasharray="5,5"/>
-    <line x1="180" y1="300" x2="200" y2="280" stroke="black" stroke-width="1" stroke-dasharray="5,5"/>
+    <line x1="140" y1="300" x2="100" y2="260" stroke="#e74c3c" stroke-width="3" stroke-dasharray="8,4"/>
+    <line x1="260" y1="300" x2="300" y2="260" stroke="#e74c3c" stroke-width="3" stroke-dasharray="8,4"/>
     
-    <!-- Chinese label -->
-    <text x="150" y="460" text-anchor="middle" font-family="Arial" font-size="18" fill="red">手动提示</text>
+    <!-- Labels -->
+    <text x="200" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#e74c3c">Manual Prompting</text>
+    <text x="200" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">One prompt at a time</text>
+    <text x="200" y="510" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">You are the human in the loop</text>
   </g>
   
   <!-- Orange transformation arrow -->
-  <path d="M 550 400 Q 700 350 850 400" fill="none" stroke="orange" stroke-width="4" marker-end="url(#arrowhead)"/>
+  <g transform="translate(600, 400)">
+    <path d="M 0 0 Q 200 -50 400 0" fill="none" stroke="#f39c12" stroke-width="6" stroke-linecap="round"/>
+    <polygon points="400,0 380,-15 380,15" fill="#f39c12"/>
+    <text x="200" y="-30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#f39c12">TRANSFORM</text>
+  </g>
+  
+  <!-- Right side: Loop Engineering -->
+  <g transform="translate(1050, 250)">
+    <!-- Section title -->
+    <text x="200" y="-20" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#27ae60">THE NEW WAY</text>
+    
+    <!-- System diagram -->
+    <rect x="50" y="0" width="300" height="200" fill="#f8f9fa" stroke="#34495e" stroke-width="4" rx="10"/>
+    <rect x="60" y="10" width="280" height="180" fill="white" stroke="#bdc3c7" stroke-width="2"/>
+    
+    <!-- System components -->
+    <rect x="80" y="30" width="80" height="40" fill="#3498db" stroke="#2980b9" stroke-width="2" rx="5"/>
+    <text x="120" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">SCHEDULE</text>
+    
+    <rect x="180" y="30" width="80" height="40" fill="#e67e22" stroke="#d35400" stroke-width="2" rx="5"/>
+    <text x="220" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">AGENT</text>
+    
+    <rect x="80" y="90" width="80" height="40" fill="#2ecc71" stroke="#27ae60" stroke-width="2" rx="5"/>
+    <text x="120" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">VERIFY</text>
+    
+    <rect x="180" y="90" width="80" height="40" fill="#9b59b6" stroke="#8e44ad" stroke-width="2" rx="5"/>
+    <text x="220" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">MEMORY</text>
+    
+    <!-- Arrows inside system -->
+    <path d="M 160 50 L 180 50" fill="none" stroke="#f39c12" stroke-width="3" marker-end="url(#arrowhead)"/>
+    <path d="M 220 70 L 220 90" fill="none" stroke="#f39c12" stroke-width="3" marker-end="url(#arrowhead)"/>
+    <path d="M 180 110 L 160 110" fill="none" stroke="#f39c12" stroke-width="3" marker-end="url(#arrowhead)"/>
+    <path d="M 120 90 L 120 70" fill="none" stroke="#f39c12" stroke-width="3" marker-end="url(#arrowhead)"/>
+    
+    <!-- 小黑 character (right side - designing system) -->
+    <g transform="translate(200, 300)">
+      <!-- Body -->
+      <ellipse cx="0" cy="0" rx="40" ry="35" fill="#2c3e50"/>
+      <!-- Eyes -->
+      <circle cx="-12" cy="-8" r="6" fill="white"/>
+      <circle cx="12" cy="-8" r="6" fill="white"/>
+      <circle cx="-12" cy="-8" r="3" fill="#2c3e50"/>
+      <circle cx="12" cy="-8" r="3" fill="#2c3e50"/>
+      <!-- Arms -->
+      <line x1="-30" y1="10" x2="-60" y2="-20" stroke="#2c3e50" stroke-width="6" stroke-linecap="round"/>
+      <line x1="30" y1="10" x2="60" y2="-20" stroke="#2c3e50" stroke-width="6" stroke-linecap="round"/>
+      <!-- Hands -->
+      <circle cx="-60" cy="-20" r="8" fill="#2c3e50"/>
+      <circle cx="60" cy="-20" r="8" fill="#2c3e50"/>
+      <!-- Legs -->
+      <line x1="-15" y1="35" x2="-20" y2="80" stroke="#2c3e50" stroke-width="6" stroke-linecap="round"/>
+      <line x1="15" y1="35" x2="20" y2="80" stroke="#2c3e50" stroke-width="6" stroke-linecap="round"/>
+      <!-- Feet -->
+      <ellipse cx="-20" cy="85" rx="12" ry="6" fill="#2c3e50"/>
+      <ellipse cx="20" cy="85" rx="12" ry="6" fill="#2c3e50"/>
+    </g>
+    
+    <!-- Designing action lines -->
+    <line x1="140" y1="250" x2="100" y2="210" stroke="#27ae60" stroke-width="3" stroke-dasharray="8,4"/>
+    <line x1="260" y1="250" x2="300" y2="210" stroke="#27ae60" stroke-width="3" stroke-dasharray="8,4"/>
+    
+    <!-- Labels -->
+    <text x="200" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#27ae60">Loop Engineering</text>
+    <text x="200" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">Design the system</text>
+    <text x="200" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">That generates prompts</text>
+  </g>
+  
+  <!-- Arrow marker -->
   <defs>
     <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="orange"/>
+      <polygon points="0 0, 10 3.5, 0 7" fill="#f39c12"/>
     </marker>
   </defs>
   
-  <!-- Right side: Loop Engineering -->
-  <g transform="translate(900, 300)">
-    <!-- System diagram -->
-    <rect x="0" y="0" width="300" height="200" fill="none" stroke="black" stroke-width="3" rx="5"/>
-    
-    <!-- Automation arrows inside system -->
-    <path d="M 50 50 L 250 50" fill="none" stroke="orange" stroke-width="2" marker-end="url(#arrowhead)"/>
-    <path d="M 250 80 L 50 80" fill="none" stroke="orange" stroke-width="2" marker-end="url(#arrowhead)"/>
-    <path d="M 50 110 L 250 110" fill="none" stroke="orange" stroke-width="2" marker-end="url(#arrowhead)"/>
-    <path d="M 250 140 L 50 140" fill="none" stroke="orange" stroke-width="2" marker-end="url(#arrowhead)"/>
-    
-    <!-- System components -->
-    <rect x="70" y="40" width="60" height="20" fill="none" stroke="black" stroke-width="1"/>
-    <rect x="170" y="40" width="60" height="20" fill="none" stroke="black" stroke-width="1"/>
-    <rect x="70" y="70" width="60" height="20" fill="none" stroke="black" stroke-width="1"/>
-    <rect x="170" y="70" width="60" height="20" fill="none" stroke="black" stroke-width="1"/>
-    <rect x="70" y="100" width="60" height="20" fill="none" stroke="black" stroke-width="1"/>
-    <rect x="170" y="100" width="60" height="20" fill="none" stroke="black" stroke-width="1"/>
-    <rect x="70" y="130" width="60" height="20" fill="none" stroke="black" stroke-width="1"/>
-    <rect x="170" y="130" width="60" height="20" fill="none" stroke="black" stroke-width="1"/>
-    
-    <!-- 小黑 character (right side - designing system) -->
-    <circle cx="150" cy="280" r="25" fill="black"/>
-    <circle cx="142" cy="275" r="4" fill="white"/>
-    <circle cx="158" cy="275" r="4" fill="white"/>
-    <line x1="140" y1="305" x2="135" y2="350" stroke="black" stroke-width="2"/>
-    <line x1="160" y1="305" x2="165" y2="350" stroke="black" stroke-width="2"/>
-    
-    <!-- Designing action lines -->
-    <line x1="120" y1="250" x2="100" y2="230" stroke="black" stroke-width="1" stroke-dasharray="5,5"/>
-    <line x1="180" y1="250" x2="200" y2="230" stroke="black" stroke-width="1" stroke-dasharray="5,5"/>
-    
-    <!-- Chinese labels -->
-    <text x="150" y="390" text-anchor="middle" font-family="Arial" font-size="18" fill="red">系统设计</text>
-    <text x="150" y="410" text-anchor="middle" font-family="Arial" font-size="14" fill="blue">自动化</text>
-    <text x="150" y="430" text-anchor="middle" font-family="Arial" font-size="14" fill="blue">验证</text>
-  </g>
-  
-  <!-- Title annotation -->
-  <text x="960" y="150" text-anchor="middle" font-family="Arial" font-size="24" fill="black">从手动到自动的转变</text>
+  <!-- Bottom annotation -->
+  <text x="960" y="1000" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">"You shouldn't be prompting coding agents anymore. You should be designing loops that prompt your agents."</text>
+  <text x="960" y="1030" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#95a5a6">— Peter Steinberger (6.5M views)</text>
 </svg>

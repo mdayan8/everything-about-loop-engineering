@@ -3,96 +3,160 @@
   <rect width="100%" height="100%" fill="white"/>
   
   <!-- Title -->
-  <text x="960" y="100" text-anchor="middle" font-family="Arial" font-size="28" fill="black">循环工程成熟度模型</text>
+  <text x="960" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#2c3e50">LOOP ENGINEERING MATURITY MODEL</text>
+  <text x="960" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Three tiers of autonomy: from reporting to full independence</text>
   
   <!-- L1 Level (Bottom) -->
   <g transform="translate(200, 600)">
     <!-- Platform -->
-    <rect x="0" y="0" width="400" height="100" fill="none" stroke="black" stroke-width="3" rx="5"/>
+    <rect x="0" y="0" width="400" height="120" fill="#f8f9fa" stroke="#34495e" stroke-width="4" rx="10"/>
+    <rect x="10" y="10" width="380" height="100" fill="white" stroke="#bdc3c7" stroke-width="2"/>
+    
+    <!-- Level indicator -->
+    <rect x="20" y="20" width="80" height="40" fill="#3498db" stroke="#2980b9" stroke-width="2" rx="5"/>
+    <text x="60" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">L1</text>
     
     <!-- 小黑 reading report -->
-    <circle cx="100" cy="50" r="20" fill="black"/>
-    <circle cx="94" cy="46" r="3" fill="white"/>
-    <circle cx="106" cy="46" r="3" fill="white"/>
-    <line x1="90" y1="70" x2="85" y2="100" stroke="black" stroke-width="2"/>
-    <line x1="110" y1="70" x2="115" y2="100" stroke="black" stroke-width="2"/>
+    <g transform="translate(150, 60)">
+      <!-- Body -->
+      <ellipse cx="0" cy="0" rx="25" ry="22" fill="#2c3e50"/>
+      <!-- Eyes -->
+      <circle cx="-8" cy="-5" r="4" fill="white"/>
+      <circle cx="8" cy="-5" r="4" fill="white"/>
+      <circle cx="-8" cy="-5" r="2" fill="#2c3e50"/>
+      <circle cx="8" cy="-5" r="2" fill="#2c3e50"/>
+      <!-- Arms -->
+      <line x1="-20" y1="5" x2="-35" y2="-10" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+      <line x1="20" y1="5" x2="35" y2="-10" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+      <!-- Legs -->
+      <line x1="-10" y1="22" x2="-12" y2="45" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+      <line x1="10" y1="22" x2="12" y2="45" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+    </g>
     
     <!-- Report document -->
-    <rect x="200" y="20" width="150" height="80" fill="none" stroke="black" stroke-width="2"/>
-    <line x1="220" y1="40" x2="330" y2="40" stroke="black" stroke-width="1"/>
-    <line x1="220" y1="55" x2="330" y2="55" stroke="black" stroke-width="1"/>
-    <line x1="220" y1="70" x2="330" y2="70" stroke="black" stroke-width="1"/>
-    <line x1="220" y1="85" x2="300" y2="85" stroke="black" stroke-width="1"/>
+    <rect x="220" y="20" width="150" height="80" fill="white" stroke="#34495e" stroke-width="2"/>
+    <line x1="240" y1="40" x2="350" y2="40" stroke="#bdc3c7" stroke-width="1"/>
+    <line x1="240" y1="55" x2="350" y2="55" stroke="#bdc3c7" stroke-width="1"/>
+    <line x1="240" y1="70" x2="350" y2="70" stroke="#bdc3c7" stroke-width="1"/>
+    <line x1="240" y1="85" x2="320" y2="85" stroke="#bdc3c7" stroke-width="1"/>
+    <text x="295" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">REPORT</text>
     
     <!-- Chinese labels -->
-    <text x="200" y="130" text-anchor="middle" font-family="Arial" font-size="20" fill="red">L1 报告</text>
-    <text x="200" y="150" text-anchor="middle" font-family="Arial" font-size="14" fill="blue">安全</text>
+    <text x="200" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#3498db">L1: Report Only</text>
+    <text x="200" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">Reads, observes, writes down</text>
+    <text x="200" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">Changes nothing</text>
+    <text x="200" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#27ae60">✓ Low risk</text>
+    <text x="200" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#27ae60">✓ Most loops stay here</text>
   </g>
   
   <!-- Orange arrow up -->
-  <path d="M 400 550 L 400 450" fill="none" stroke="orange" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <path d="M 400 550 L 400 450" fill="none" stroke="#f39c12" stroke-width="4" marker-end="url(#arrowhead)"/>
+  <text x="420" y="500" font-family="Arial, sans-serif" font-size="14" fill="#f39c12">Advance when proven</text>
   
   <!-- L2 Level (Middle) -->
-  <g transform="translate(200, 350)">
+  <g transform="translate(200, 300)">
     <!-- Platform -->
-    <rect x="0" y="0" width="400" height="100" fill="none" stroke="black" stroke-width="3" rx="5"/>
+    <rect x="0" y="0" width="400" height="120" fill="#f8f9fa" stroke="#34495e" stroke-width="4" rx="10"/>
+    <rect x="10" y="10" width="380" height="100" fill="white" stroke="#bdc3c7" stroke-width="2"/>
+    
+    <!-- Level indicator -->
+    <rect x="20" y="20" width="80" height="40" fill="#f39c12" stroke="#e67e22" stroke-width="2" rx="5"/>
+    <text x="60" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">L2</text>
     
     <!-- 小黑 proposing changes -->
-    <circle cx="100" cy="50" r="20" fill="black"/>
-    <circle cx="94" cy="46" r="3" fill="white"/>
-    <circle cx="106" cy="46" r="3" fill="white"/>
-    <line x1="90" y1="70" x2="85" y2="100" stroke="black" stroke-width="2"/>
-    <line x1="110" y1="70" x2="115" y2="100" stroke="black" stroke-width="2"/>
+    <g transform="translate(150, 60)">
+      <!-- Body -->
+      <ellipse cx="0" cy="0" rx="25" ry="22" fill="#2c3e50"/>
+      <!-- Eyes -->
+      <circle cx="-8" cy="-5" r="4" fill="white"/>
+      <circle cx="8" cy="-5" r="4" fill="white"/>
+      <circle cx="-8" cy="-5" r="2" fill="#2c3e50"/>
+      <circle cx="8" cy="-5" r="2" fill="#2c3e50"/>
+      <!-- Arms -->
+      <line x1="-20" y1="5" x2="-35" y2="-10" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+      <line x1="20" y1="5" x2="35" y2="-10" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+      <!-- Legs -->
+      <line x1="-10" y1="22" x2="-12" y2="45" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+      <line x1="10" y1="22" x2="12" y2="45" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+    </g>
     
     <!-- Proposal document -->
-    <rect x="200" y="20" width="150" height="80" fill="none" stroke="black" stroke-width="2"/>
-    <circle cx="275" cy="50" r="15" fill="none" stroke="orange" stroke-width="2"/>
-    <text x="275" y="55" text-anchor="middle" font-family="Arial" font-size="12" fill="orange">建议</text>
+    <rect x="220" y="20" width="150" height="80" fill="white" stroke="#f39c12" stroke-width="2"/>
+    <circle cx="295" cy="50" r="20" fill="none" stroke="#f39c12" stroke-width="2"/>
+    <text x="295" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#f39c12">PROPOSE</text>
     
     <!-- Chinese labels -->
-    <text x="200" y="130" text-anchor="middle" font-family="Arial" font-size="20" fill="red">L2 建议</text>
-    <text x="200" y="150" text-anchor="middle" font-family="Arial" font-size="14" fill="blue">谨慎</text>
+    <text x="200" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#f39c12">L2: Assisted</text>
+    <text x="200" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">Proposes narrow-scope changes</text>
+    <text x="200" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">Human reviews and merges</text>
+    <text x="200" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#f39c12">⚠ Medium risk</text>
+    <text x="200" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#f39c12">⚠ After L1 proven</text>
   </g>
   
   <!-- Orange arrow up -->
-  <path d="M 400 300 L 400 200" fill="none" stroke="orange" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <path d="M 400 250 L 400 150" fill="none" stroke="#f39c12" stroke-width="4" marker-end="url(#arrowhead)"/>
+  <text x="420" y="200" font-family="Arial, sans-serif" font-size="14" fill="#f39c12">Advance when proven</text>
   
   <!-- L3 Level (Top) -->
-  <g transform="translate(200, 100)">
+  <g transform="translate(200, 0)">
     <!-- Platform -->
-    <rect x="0" y="0" width="400" height="100" fill="none" stroke="black" stroke-width="3" rx="5"/>
+    <rect x="0" y="0" width="400" height="120" fill="#f8f9fa" stroke="#34495e" stroke-width="4" rx="10"/>
+    <rect x="10" y="10" width="380" height="100" fill="white" stroke="#bdc3c7" stroke-width="2"/>
+    
+    <!-- Level indicator -->
+    <rect x="20" y="20" width="80" height="40" fill="#e74c3c" stroke="#c0392b" stroke-width="2" rx="5"/>
+    <text x="60" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">L3</text>
     
     <!-- 小黑 deploying autonomously -->
-    <circle cx="100" cy="50" r="20" fill="black"/>
-    <circle cx="94" cy="46" r="3" fill="white"/>
-    <circle cx="106" cy="46" r="3" fill="white"/>
-    <line x1="90" y1="70" x2="85" y2="100" stroke="black" stroke-width="2"/>
-    <line x1="110" y1="70" x2="115" y2="100" stroke="black" stroke-width="2"/>
+    <g transform="translate(150, 60)">
+      <!-- Body -->
+      <ellipse cx="0" cy="0" rx="25" ry="22" fill="#2c3e50"/>
+      <!-- Eyes -->
+      <circle cx="-8" cy="-5" r="4" fill="white"/>
+      <circle cx="8" cy="-5" r="4" fill="white"/>
+      <circle cx="-8" cy="-5" r="2" fill="#2c3e50"/>
+      <circle cx="8" cy="-5" r="2" fill="#2c3e50"/>
+      <!-- Arms -->
+      <line x1="-20" y1="5" x2="-35" y2="-10" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+      <line x1="20" y1="5" x2="35" y2="-10" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+      <!-- Legs -->
+      <line x1="-10" y1="22" x2="-12" y2="45" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+      <line x1="10" y1="22" x2="12" y2="45" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+    </g>
     
     <!-- Deployment arrow -->
-    <path d="M 200 50 L 350 50" fill="none" stroke="orange" stroke-width="3" marker-end="url(#arrowhead)"/>
-    <text x="275" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="orange">部署</text>
+    <path d="M 220 50 L 350 50" fill="none" stroke="#e74c3c" stroke-width="4" marker-end="url(#arrowhead)"/>
+    <text x="285" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">DEPLOY</text>
     
     <!-- Chinese labels -->
-    <text x="200" y="130" text-anchor="middle" font-family="Arial" font-size="20" fill="red">L3 自主</text>
-    <text x="200" y="150" text-anchor="middle" font-family="Arial" font-size="14" fill="blue">风险递增</text>
+    <text x="200" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#e74c3c">L3: Unattended</text>
+    <text x="200" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">Commits, merges, deploys</text>
+    <text x="200" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">Fully autonomous</text>
+    <text x="200" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#e74c3c">✗ High risk</text>
+    <text x="200" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#e74c3c">✗ Few tasks earn this</text>
   </g>
   
   <!-- Risk indicator on right -->
   <g transform="translate(700, 300)">
-    <text x="0" y="0" font-family="Arial" font-size="16" fill="black">风险级别</text>
-    <rect x="0" y="20" width="100" height="30" fill="none" stroke="green" stroke-width="2"/>
-    <text x="50" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="green">低</text>
-    <rect x="0" y="60" width="100" height="30" fill="none" stroke="orange" stroke-width="2"/>
-    <text x="50" y="80" text-anchor="middle" font-family="Arial" font-size="12" fill="orange">中</text>
-    <rect x="0" y="100" width="100" height="30" fill="none" stroke="red" stroke-width="2"/>
-    <text x="50" y="120" text-anchor="middle" font-family="Arial" font-size="12" fill="red">高</text>
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">RISK LEVEL</text>
+    
+    <rect x="0" y="30" width="150" height="40" fill="#27ae60" stroke="#229954" stroke-width="2" rx="5"/>
+    <text x="75" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">LOW</text>
+    
+    <rect x="0" y="80" width="150" height="40" fill="#f39c12" stroke="#e67e22" stroke-width="2" rx="5"/>
+    <text x="75" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">MEDIUM</text>
+    
+    <rect x="0" y="130" width="150" height="40" fill="#e74c3c" stroke="#c0392b" stroke-width="2" rx="5"/>
+    <text x="75" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">HIGH</text>
+    
+    <text x="75" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Most loops stay at L1</text>
+    <text x="75" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Few tasks earn L3</text>
   </g>
   
   <!-- Arrow marker -->
   <defs>
     <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="orange"/>
+      <polygon points="0 0, 10 3.5, 0 7" fill="#f39c12"/>
     </marker>
   </defs>
 </svg>

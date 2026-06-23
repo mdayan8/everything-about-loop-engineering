@@ -3,78 +3,123 @@
   <rect width="100%" height="100%" fill="white"/>
   
   <!-- Title -->
-  <text x="960" y="80" text-anchor="middle" font-family="Arial" font-size="28" fill="black">循环工程示例概览</text>
+  <text x="960" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#2c3e50">LOOP ENGINEERING EXAMPLES</text>
+  <text x="960" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Worked examples demonstrating loop patterns in practice</text>
   
   <!-- Central 小黑 character -->
-  <circle cx="960" cy="540" r="40" fill="black"/>
-  <circle cx="948" cy="532" r="6" fill="white"/>
-  <circle cx="972" cy="532" r="6" fill="white"/>
-  <line x1="940" y1="580" x2="930" y2="650" stroke="black" stroke-width="3"/>
-  <line x1="980" y1="580" x2="990" y2="650" stroke="black" stroke-width="3"/>
+  <g transform="translate(960, 540)">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="50" ry="45" fill="#2c3e50"/>
+    <!-- Eyes -->
+    <circle cx="-15" cy="-10" r="7" fill="white"/>
+    <circle cx="15" cy="-10" r="7" fill="white"/>
+    <circle cx="-15" cy="-10" r="4" fill="#2c3e50"/>
+    <circle cx="15" cy="-10" r="4" fill="#2c3e50"/>
+    <!-- Arms -->
+    <line x1="-40" y1="10" x2="-80" y2="-30" stroke="#2c3e50" stroke-width="8" stroke-linecap="round"/>
+    <line x1="40" y1="10" x2="80" y2="-30" stroke="#2c3e50" stroke-width="8" stroke-linecap="round"/>
+    <!-- Hands -->
+    <circle cx="-80" cy="-30" r="10" fill="#2c3e50"/>
+    <circle cx="80" cy="-30" r="10" fill="#2c3e50"/>
+    <!-- Legs -->
+    <line x1="-20" y1="45" x2="-25" y2="100" stroke="#2c3e50" stroke-width="8" stroke-linecap="round"/>
+    <line x1="20" y1="45" x2="25" y2="100" stroke="#2c3e50" stroke-width="8" stroke-linecap="round"/>
+    <!-- Feet -->
+    <ellipse cx="-25" cy="110" rx="15" ry="8" fill="#2c3e50"/>
+    <ellipse cx="25" cy="110" rx="15" ry="8" fill="#2c3e50"/>
+  </g>
   
   <!-- Example 1: Daily Triage (top left) -->
   <g transform="translate(400, 300)">
-    <rect x="-100" y="-50" width="200" height="100" fill="none" stroke="black" stroke-width="3" rx="5"/>
-    <text x="0" y="-20" text-anchor="middle" font-family="Arial" font-size="16" fill="black">每日分类</text>
-    <text x="0" y="0" text-anchor="middle" font-family="Arial" font-size="12" fill="blue">L1 模式</text>
-    <text x="0" y="20" text-anchor="middle" font-family="Arial" font-size="12" fill="blue">问题/PR分类</text>
+    <rect x="-120" y="-60" width="240" height="120" fill="#3498db" stroke="#2980b9" stroke-width="3" rx="10"/>
+    <text x="0" y="-30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">DAILY TRIAGE</text>
+    <text x="0" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#d6eaf8">L1 Pattern</text>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#d6eaf8">Issue & PR categorization</text>
+    <text x="0" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#d6eaf8">Once daily • Low cost</text>
     
     <!-- Connection line to center -->
-    <line x1="100" y1="50" x2="460" y2="240" stroke="orange" stroke-width="2" stroke-dasharray="8,4"/>
+    <line x1="120" y1="60" x2="440" y2="240" stroke="#f39c12" stroke-width="3" stroke-dasharray="10,5"/>
     
     <!-- 小黑 at this example -->
-    <circle cx="0" cy="80" r="15" fill="black"/>
-    <circle cx="-3" cy="78" r="2" fill="white"/>
-    <circle cx="3" cy="78" r="2" fill="white"/>
+    <g transform="translate(0, 90)">
+      <!-- Body -->
+      <ellipse cx="0" cy="0" rx="20" ry="18" fill="#2c3e50"/>
+      <!-- Eyes -->
+      <circle cx="-6" cy="-4" r="3" fill="white"/>
+      <circle cx="6" cy="-4" r="3" fill="white"/>
+      <!-- Legs -->
+      <line x1="-8" y1="18" x2="-10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+      <line x1="8" y1="18" x2="10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+    </g>
   </g>
   
   <!-- Example 2: Changelog Drafter (top right) -->
   <g transform="translate(1520, 300)">
-    <rect x="-100" y="-50" width="200" height="100" fill="none" stroke="black" stroke-width="3" rx="5"/>
-    <text x="0" y="-20" text-anchor="middle" font-family="Arial" font-size="16" fill="black">变更日志</text>
-    <text x="0" y="0" text-anchor="middle" font-family="Arial" font-size="12" fill="blue">L1 模式</text>
-    <text x="0" y="20" text-anchor="middle" font-family="Arial" font-size="12" fill="blue">Git历史分析</text>
+    <rect x="-120" y="-60" width="240" height="120" fill="#2ecc71" stroke="#27ae60" stroke-width="3" rx="10"/>
+    <text x="0" y="-30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">CHANGELOG DRAFTER</text>
+    <text x="0" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#d5f5e3">L1 Pattern</text>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#d5f5e3">Git history analysis</text>
+    <text x="0" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#d5f5e3">Daily • Low cost</text>
     
     <!-- Connection line to center -->
-    <line x1="-100" y1="50" x2="-460" y2="240" stroke="orange" stroke-width="2" stroke-dasharray="8,4"/>
+    <line x1="-120" y1="60" x2="-440" y2="240" stroke="#f39c12" stroke-width="3" stroke-dasharray="10,5"/>
     
     <!-- 小黑 at this example -->
-    <circle cx="0" cy="80" r="15" fill="black"/>
-    <circle cx="-3" cy="78" r="2" fill="white"/>
-    <circle cx="3" cy="78" r="2" fill="white"/>
+    <g transform="translate(0, 90)">
+      <!-- Body -->
+      <ellipse cx="0" cy="0" rx="20" ry="18" fill="#2c3e50"/>
+      <!-- Eyes -->
+      <circle cx="-6" cy="-4" r="3" fill="white"/>
+      <circle cx="6" cy="-4" r="3" fill="white"/>
+      <!-- Legs -->
+      <line x1="-8" y1="18" x2="-10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+      <line x1="8" y1="18" x2="10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+    </g>
   </g>
   
   <!-- Example 3: Code Quality Guardian (bottom) -->
   <g transform="translate(960, 800)">
-    <rect x="-120" y="-50" width="240" height="100" fill="none" stroke="black" stroke-width="3" rx="5"/>
-    <text x="0" y="-20" text-anchor="middle" font-family="Arial" font-size="16" fill="black">代码质量守护者</text>
-    <text x="0" y="0" text-anchor="middle" font-family="Arial" font-size="12" fill="blue">多子代理模式</text>
-    <text x="0" y="20" text-anchor="middle" font-family="Arial" font-size="12" fill="blue">并行验证</text>
+    <rect x="-140" y="-60" width="280" height="120" fill="#9b59b6" stroke="#8e44ad" stroke-width="3" rx="10"/>
+    <text x="0" y="-30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">CODE QUALITY GUARDIAN</text>
+    <text x="0" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#e8daef">Multi-Sub-Agent Pattern</text>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#e8daef">Parallel verification</text>
+    <text x="0" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#e8daef">L1 • Medium cost</text>
     
     <!-- Connection line to center -->
-    <line x1="0" y1="-50" x2="0" y2="-210" stroke="orange" stroke-width="2" stroke-dasharray="8,4"/>
+    <line x1="0" y1="-60" x2="0" y2="-190" stroke="#f39c12" stroke-width="3" stroke-dasharray="10,5"/>
     
     <!-- 小黑 at this example -->
-    <circle cx="0" cy="80" r="15" fill="black"/>
-    <circle cx="-3" cy="78" r="2" fill="white"/>
-    <circle cx="3" cy="78" r="2" fill="white"/>
+    <g transform="translate(0, 90)">
+      <!-- Body -->
+      <ellipse cx="0" cy="0" rx="20" ry="18" fill="#2c3e50"/>
+      <!-- Eyes -->
+      <circle cx="-6" cy="-4" r="3" fill="white"/>
+      <circle cx="6" cy="-4" r="3" fill="white"/>
+      <!-- Legs -->
+      <line x1="-8" y1="18" x2="-10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+      <line x1="8" y1="18" x2="10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+    </g>
   </g>
   
   <!-- Labels -->
   <g transform="translate(200, 500)">
-    <text x="0" y="0" font-family="Arial" font-size="16" fill="red">实践示例</text>
-    <text x="0" y="20" font-family="Arial" font-size="14" fill="black">展示循环模式</text>
-    <text x="0" y="40" font-family="Arial" font-size="14" fill="black">在实际中的应用</text>
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">PRACTICAL EXAMPLES</text>
+    <text x="0" y="30" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">Demonstrate loop patterns</text>
+    <text x="0" y="55" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">in real-world scenarios</text>
   </g>
   
   <g transform="translate(1600, 500)">
-    <text x="0" y="0" font-family="Arial" font-size="16" fill="red">从简单开始</text>
-    <text x="0" y="20" font-family="Arial" font-size="14" fill="black">每日分类</text>
-    <text x="0" y="40" font-family="Arial" font-size="14" fill="black">变更日志</text>
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">START SIMPLE</text>
+    <text x="0" y="30" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">Daily Triage</text>
+    <text x="0" y="55" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">Changelog Drafter</text>
   </g>
   
   <!-- Connection lines between examples -->
-  <line x1="500" y1="350" x2="1420" y2="350" stroke="black" stroke-width="1" stroke-dasharray="4,4"/>
-  <line x1="500" y1="350" x2="960" y2="750" stroke="black" stroke-width="1" stroke-dasharray="4,4"/>
-  <line x1="1420" y1="350" x2="960" y2="750" stroke="black" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="520" y1="350" x2="1400" y2="350" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="520" y1="350" x2="960" y2="750" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="1400" y1="350" x2="960" y2="750" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Bottom annotation -->
+  <text x="960" y="1000" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Each example includes: SKILL.md, VISION.md, AGENTS.md, and STATE.md</text>
+  <text x="960" y="1030" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#95a5a6">Adapt, don't copy — these are illustrations, not production configs</text>
 </svg>
