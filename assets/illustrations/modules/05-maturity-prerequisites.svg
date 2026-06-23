@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1350">
+  <!-- Pure white background -->
+  <rect width="100%" height="100%" fill="white"/>
+  
+  <!-- Title -->
+  <text x="1200" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#2c3e50">MATURITY PREREQUISITES</text>
+  <text x="1200" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#7f8c8d">Non-negotiable foundations before any loop engineering</text>
+  
+  <!-- Prerequisite boxes -->
+  <!-- 1. Source Control -->
+  <g transform="translate(300, 350)">
+    <rect x="-200" y="-150" width="400" height="300" fill="#e74c3c" stroke="#c0392b" stroke-width="5" rx="15"/>
+    <rect x="-188" y="-138" width="376" height="276" fill="white" stroke="#fadbd8" stroke-width="2"/>
+    
+    <!-- Icon area -->
+    <rect x="-150" y="-100" width="120" height="120" fill="#fadbd8" stroke="#e74c3c" stroke-width="3" rx="10"/>
+    <text x="-90" y="-30" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" fill="#e74c3c">Git</text>
+    
+    <!-- Title -->
+    <text x="50" y="-50" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#e74c3c">SOURCE CONTROL</text>
+    <text x="50" y="-15" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Git, GitHub, GitLab</text>
+    <text x="50" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Required for PR triggers</text>
+    <text x="50" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">History for context</text>
+    
+    <!-- 小黑 -->
+    <g transform="translate(0, 120)">
+      <ellipse cx="0" cy="0" rx="28" ry="25" fill="#2c3e50"/>
+      <circle cx="-8" cy="-5" r="4" fill="white"/>
+      <circle cx="8" cy="-5" r="4" fill="white"/>
+      <line x1="-12" y1="25" x2="-14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+      <line x1="12" y1="25" x2="14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    
+    <!-- Status -->
+    <text x="0" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#e74c3c">✓ NON-NEGOTIABLE</text>
+  </g>
+  
+  <!-- 2. CI/CD Pipeline -->
+  <g transform="translate(750, 350)">
+    <rect x="-200" y="-150" width="400" height="300" fill="#f39c12" stroke="#e67e22" stroke-width="5" rx="15"/>
+    <rect x="-188" y="-138" width="376" height="276" fill="white" stroke="#fdebd0" stroke-width="2"/>
+    
+    <!-- Icon area -->
+    <rect x="-150" y="-100" width="120" height="120" fill="#fdebd0" stroke="#f39c12" stroke-width="3" rx="10"/>
+    <text x="-90" y="-20" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" fill="#f39c12">CI/CD</text>
+    
+    <!-- Title -->
+    <text x="50" y="-50" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#f39c12">CI PIPELINE</text>
+    <text x="50" y="-15" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">GitHub Actions, etc.</text>
+    <text x="50" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Required for test gating</text>
+    <text x="50" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Deployment automation</text>
+    
+    <!-- 小黑 -->
+    <g transform="translate(0, 120)">
+      <ellipse cx="0" cy="0" rx="28" ry="25" fill="#2c3e50"/>
+      <circle cx="-8" cy="-5" r="4" fill="white"/>
+      <circle cx="8" cy="-5" r="4" fill="white"/>
+      <line x1="-12" y1="25" x2="-14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+      <line x1="12" y1="25" x2="14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    
+    <!-- Status -->
+    <text x="0" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#f39c12">✓ HIGHLY RECOMMENDED</text>
+  </g>
+  
+  <!-- 3. AI Platform Access -->
+  <g transform="translate(1200, 350)">
+    <rect x="-200" y="-150" width="400" height="300" fill="#3498db" stroke="#2980b9" stroke-width="5" rx="15"/>
+    <rect x="-188" y="-138" width="376" height="276" fill="white" stroke="#d6eaf8" stroke-width="2"/>
+    
+    <!-- Icon area -->
+    <rect x="-150" y="-100" width="120" height="120" fill="#d6eaf8" stroke="#3498db" stroke-width="3" rx="10"/>
+    <text x="-90" y="-20" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" fill="#3498db">AI</text>
+    
+    <!-- Title -->
+    <text x="50" y="-50" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#3498db">AI ACCESS</text>
+    <text x="50" y="-15" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Claude Code, etc.</text>
+    <text x="50" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">API key configured</text>
+    <text x="50" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Model selected</text>
+    
+    <!-- 小黑 -->
+    <g transform="translate(0, 120)">
+      <ellipse cx="0" cy="0" rx="28" ry="25" fill="#2c3e50"/>
+      <circle cx="-8" cy="-5" r="4" fill="white"/>
+      <circle cx="8" cy="-5" r="4" fill="white"/>
+      <line x1="-12" y1="25" x2="-14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+      <line x1="12" y1="25" x2="14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    
+    <!-- Status -->
+    <text x="0" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#3498db">✓ NON-NEGOTIABLE</text>
+  </g>
+  
+  <!-- 4. Safety Rails -->
+  <g transform="translate(1650, 350)">
+    <rect x="-200" y="-150" width="400" height="300" fill="#2ecc71" stroke="#27ae60" stroke-width="5" rx="15"/>
+    <rect x="-188" y="-138" width="376" height="276" fill="white" stroke="#d5f5e3" stroke-width="2"/>
+    
+    <!-- Icon area -->
+    <rect x="-150" y="-100" width="120" height="120" fill="#d5f5e3" stroke="#2ecc71" stroke-width="3" rx="10"/>
+    <text x="-90" y="-20" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" fill="#2ecc71">Rails</text>
+    
+    <!-- Title -->
+    <text x="50" y="-50" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#2ecc71">SAFETY RAILS</text>
+    <text x="50" y="-15" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Permissions, limits</text>
+    <text x="50" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Sandbox, rollback</text>
+    <text x="50" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Rate limits, budgets</text>
+    
+    <!-- 小黑 -->
+    <g transform="translate(0, 120)">
+      <ellipse cx="0" cy="0" rx="28" ry="25" fill="#2c3e50"/>
+      <circle cx="-8" cy="-5" r="4" fill="white"/>
+      <circle cx="8" cy="-5" r="4" fill="white"/>
+      <line x1="-12" y1="25" x2="-14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+      <line x1="12" y1="25" x2="14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    
+    <!-- Status -->
+    <text x="0" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2ecc71">✓ NON-NEGOTIABLE</text>
+  </g>
+  
+  <!-- 5. Knowledge Base -->
+  <g transform="translate(2100, 350)">
+    <rect x="-200" y="-150" width="400" height="300" fill="#9b59b6" stroke="#8e44ad" stroke-width="5" rx="15"/>
+    <rect x="-188" y="-138" width="376" height="276" fill="white" stroke="#e8daef" stroke-width="2"/>
+    
+    <!-- Icon area -->
+    <rect x="-150" y="-100" width="120" height="120" fill="#e8daef" stroke="#9b59b6" stroke-width="3" rx="10"/>
+    <text x="-90" y="-20" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" fill="#9b59b6">KB</text>
+    
+    <!-- Title -->
+    <text x="50" y="-50" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#9b59b6">KNOWLEDGE</text>
+    <text x="50" y="-15" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">AGENTS.md, rules</text>
+    <text x="50" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Project conventions</text>
+    <text x="50" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Team standards</text>
+    
+    <!-- 小黑 -->
+    <g transform="translate(0, 120)">
+      <ellipse cx="0" cy="0" rx="28" ry="25" fill="#2c3e50"/>
+      <circle cx="-8" cy="-5" r="4" fill="white"/>
+      <circle cx="8" cy="-5" r="4" fill="white"/>
+      <line x1="-12" y1="25" x2="-14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+      <line x1="12" y1="25" x2="14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    
+    <!-- Status -->
+    <text x="0" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#9b59b6">✓ HIGHLY RECOMMENDED</text>
+  </g>
+  
+  <!-- Bottom warning -->
+  <g transform="translate(1200, 850)">
+    <rect x="-500" y="-40" width="1000" height="80" fill="#e74c3c" stroke="#c0392b" stroke-width="4" rx="12"/>
+    <text x="0" y="-8" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">⚠ NEVER run loops without safety rails, even L0</text>
+    <text x="0" y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#fadbd8">All non-negotiable items must be in place before starting</text>
+  </g>
+  
+  <!-- Bottom note -->
+  <text x="1200" y="1050" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#7f8c8d">These are the foundations that make loop engineering possible and safe</text>
+</svg>

@@ -1,125 +1,150 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1350">
   <!-- Pure white background -->
   <rect width="100%" height="100%" fill="white"/>
   
   <!-- Title -->
-  <text x="960" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#2c3e50">LOOP ENGINEERING EXAMPLES</text>
-  <text x="960" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Worked examples demonstrating loop patterns in practice</text>
+  <text x="1200" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#2c3e50">LOOP ENGINEERING EXAMPLES</text>
+  <text x="1200" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#7f8c8d">From simple to complex: real-world loop implementations</text>
   
-  <!-- Central 小黑 character -->
-  <g transform="translate(960, 540)">
-    <!-- Body -->
-    <ellipse cx="0" cy="0" rx="50" ry="45" fill="#2c3e50"/>
-    <!-- Eyes -->
-    <circle cx="-15" cy="-10" r="7" fill="white"/>
-    <circle cx="15" cy="-10" r="7" fill="white"/>
-    <circle cx="-15" cy="-10" r="4" fill="#2c3e50"/>
-    <circle cx="15" cy="-10" r="4" fill="#2c3e50"/>
-    <!-- Arms -->
-    <line x1="-40" y1="10" x2="-80" y2="-30" stroke="#2c3e50" stroke-width="8" stroke-linecap="round"/>
-    <line x1="40" y1="10" x2="80" y2="-30" stroke="#2c3e50" stroke-width="8" stroke-linecap="round"/>
-    <!-- Hands -->
-    <circle cx="-80" cy="-30" r="10" fill="#2c3e50"/>
-    <circle cx="80" cy="-30" r="10" fill="#2c3e50"/>
-    <!-- Legs -->
-    <line x1="-20" y1="45" x2="-25" y2="100" stroke="#2c3e50" stroke-width="8" stroke-linecap="round"/>
-    <line x1="20" y1="45" x2="25" y2="100" stroke="#2c3e50" stroke-width="8" stroke-linecap="round"/>
-    <!-- Feet -->
-    <ellipse cx="-25" cy="110" rx="15" ry="8" fill="#2c3e50"/>
-    <ellipse cx="25" cy="110" rx="15" ry="8" fill="#2c3e50"/>
-  </g>
-  
-  <!-- Example 1: Daily Triage (top left) -->
-  <g transform="translate(400, 300)">
-    <rect x="-120" y="-60" width="240" height="120" fill="#3498db" stroke="#2980b9" stroke-width="3" rx="10"/>
-    <text x="0" y="-30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">DAILY TRIAGE</text>
-    <text x="0" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#d6eaf8">L1 Pattern</text>
-    <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#d6eaf8">Issue & PR categorization</text>
-    <text x="0" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#d6eaf8">Once daily • Low cost</text>
+  <!-- Example 1: Simple -->
+  <g transform="translate(300, 450)">
+    <rect x="-200" y="-200" width="400" height="400" fill="#27ae60" stroke="#229954" stroke-width="5" rx="15"/>
+    <rect x="-188" y="-188" width="376" height="376" fill="white" stroke="#d5f5e3" stroke-width="2"/>
     
-    <!-- Connection line to center -->
-    <line x1="120" y1="60" x2="440" y2="240" stroke="#f39c12" stroke-width="3" stroke-dasharray="10,5"/>
+    <!-- Header -->
+    <rect x="-188" y="-188" width="376" height="80" fill="#27ae60"/>
+    <text x="0" y="-135" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white">SIMPLE</text>
     
-    <!-- 小黑 at this example -->
-    <g transform="translate(0, 90)">
-      <!-- Body -->
-      <ellipse cx="0" cy="0" rx="20" ry="18" fill="#2c3e50"/>
-      <!-- Eyes -->
-      <circle cx="-6" cy="-4" r="3" fill="white"/>
-      <circle cx="6" cy="-4" r="3" fill="white"/>
-      <!-- Legs -->
-      <line x1="-8" y1="18" x2="-10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
-      <line x1="8" y1="18" x2="10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+    <!-- Icon -->
+    <text x="0" y="-60" text-anchor="middle" font-family="Arial, sans-serif" font-size="50" fill="#27ae60">1️⃣</text>
+    
+    <!-- Description -->
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2c3e50">Beginner</text>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Cron + while loop</text>
+    <text x="0" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Git log context</text>
+    <text x="0" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">File read/write</text>
+    <text x="0" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Claude Sonnet</text>
+    
+    <!-- 小黑 -->
+    <g transform="translate(0, 180)">
+      <ellipse cx="0" cy="0" rx="35" ry="32" fill="#2c3e50"/>
+      <circle cx="-10" cy="-8" r="5" fill="white"/>
+      <circle cx="10" cy="-8" r="5" fill="white"/>
+      <line x1="-15" y1="32" x2="-18" y2="60" stroke="#2c3e50" stroke-width="5" stroke-linecap="round"/>
+      <line x1="15" y1="32" x2="18" y2="60" stroke="#2c3e50" stroke-width="5" stroke-linecap="round"/>
     </g>
+    
+    <!-- Complexity indicator -->
+    <text x="0" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#27ae60">★☆☆☆☆</text>
   </g>
   
-  <!-- Example 2: Changelog Drafter (top right) -->
-  <g transform="translate(1520, 300)">
-    <rect x="-120" y="-60" width="240" height="120" fill="#2ecc71" stroke="#27ae60" stroke-width="3" rx="10"/>
-    <text x="0" y="-30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">CHANGELOG DRAFTER</text>
-    <text x="0" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#d5f5e3">L1 Pattern</text>
-    <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#d5f5e3">Git history analysis</text>
-    <text x="0" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#d5f5e3">Daily • Low cost</text>
+  <!-- Example 2: Intermediate -->
+  <g transform="translate(900, 450)">
+    <rect x="-200" y="-200" width="400" height="400" fill="#f39c12" stroke="#e67e22" stroke-width="5" rx="15"/>
+    <rect x="-188" y="-188" width="376" height="376" fill="white" stroke="#fdebd0" stroke-width="2"/>
     
-    <!-- Connection line to center -->
-    <line x1="-120" y1="60" x2="-440" y2="240" stroke="#f39c12" stroke-width="3" stroke-dasharray="10,5"/>
+    <!-- Header -->
+    <rect x="-188" y="-188" width="376" height="80" fill="#f39c12"/>
+    <text x="0" y="-135" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white">INTERMEDIATE</text>
     
-    <!-- 小黑 at this example -->
-    <g transform="translate(0, 90)">
-      <!-- Body -->
-      <ellipse cx="0" cy="0" rx="20" ry="18" fill="#2c3e50"/>
-      <!-- Eyes -->
-      <circle cx="-6" cy="-4" r="3" fill="white"/>
-      <circle cx="6" cy="-4" r="3" fill="white"/>
-      <!-- Legs -->
-      <line x1="-8" y1="18" x2="-10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
-      <line x1="8" y1="18" x2="10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+    <!-- Icon -->
+    <text x="0" y="-60" text-anchor="middle" font-family="Arial, sans-serif" font-size="50" fill="#f39c12">2️⃣</text>
+    
+    <!-- Description -->
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2c3e50">Confidence Ladder</text>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">GitHub Actions</text>
+    <text x="0" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">GitHub API context</text>
+    <text x="0" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Tests → deploy gating</text>
+    <text x="0" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Claude Opus</text>
+    
+    <!-- 小黑 -->
+    <g transform="translate(0, 180)">
+      <ellipse cx="0" cy="0" rx="35" ry="32" fill="#2c3e50"/>
+      <circle cx="-10" cy="-8" r="5" fill="white"/>
+      <circle cx="10" cy="-8" r="5" fill="white"/>
+      <line x1="-15" y1="32" x2="-18" y2="60" stroke="#2c3e50" stroke-width="5" stroke-linecap="round"/>
+      <line x1="15" y1="32" x2="18" y2="60" stroke="#2c3e50" stroke-width="5" stroke-linecap="round"/>
     </g>
+    
+    <!-- Complexity indicator -->
+    <text x="0" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#f39c12">★★★☆☆</text>
   </g>
   
-  <!-- Example 3: Code Quality Guardian (bottom) -->
-  <g transform="translate(960, 800)">
-    <rect x="-140" y="-60" width="280" height="120" fill="#9b59b6" stroke="#8e44ad" stroke-width="3" rx="10"/>
-    <text x="0" y="-30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">CODE QUALITY GUARDIAN</text>
-    <text x="0" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#e8daef">Multi-Sub-Agent Pattern</text>
-    <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#e8daef">Parallel verification</text>
-    <text x="0" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#e8daef">L1 • Medium cost</text>
+  <!-- Example 3: Advanced -->
+  <g transform="translate(1500, 450)">
+    <rect x="-200" y="-200" width="400" height="400" fill="#e74c3c" stroke="#c0392b" stroke-width="5" rx="15"/>
+    <rect x="-188" y="-188" width="376" height="376" fill="white" stroke="#fadbd8" stroke-width="2"/>
     
-    <!-- Connection line to center -->
-    <line x1="0" y1="-60" x2="0" y2="-190" stroke="#f39c12" stroke-width="3" stroke-dasharray="10,5"/>
+    <!-- Header -->
+    <rect x="-188" y="-188" width="376" height="80" fill="#e74c3c"/>
+    <text x="0" y="-135" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white">ADVANCED</text>
     
-    <!-- 小黑 at this example -->
-    <g transform="translate(0, 90)">
-      <!-- Body -->
-      <ellipse cx="0" cy="0" rx="20" ry="18" fill="#2c3e50"/>
-      <!-- Eyes -->
-      <circle cx="-6" cy="-4" r="3" fill="white"/>
-      <circle cx="6" cy="-4" r="3" fill="white"/>
-      <!-- Legs -->
-      <line x1="-8" y1="18" x2="-10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
-      <line x1="8" y1="18" x2="10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+    <!-- Icon -->
+    <text x="0" y="-60" text-anchor="middle" font-family="Arial, sans-serif" font-size="50" fill="#e74c3c">3️⃣</text>
+    
+    <!-- Description -->
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2c3e50">PR Gatekeeper</text>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">PR webhooks trigger</text>
+    <text x="0" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Rich context aggregation</text>
+    <text x="0" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Multi-stage verification</text>
+    <text x="0" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Claude Opus + sandbox</text>
+    
+    <!-- 小黑 -->
+    <g transform="translate(0, 180)">
+      <ellipse cx="0" cy="0" rx="35" ry="32" fill="#2c3e50"/>
+      <circle cx="-10" cy="-8" r="5" fill="white"/>
+      <circle cx="10" cy="-8" r="5" fill="white"/>
+      <line x1="-15" y1="32" x2="-18" y2="60" stroke="#2c3e50" stroke-width="5" stroke-linecap="round"/>
+      <line x1="15" y1="32" x2="18" y2="60" stroke="#2c3e50" stroke-width="5" stroke-linecap="round"/>
     </g>
+    
+    <!-- Complexity indicator -->
+    <text x="0" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#e74c3c">★★★★☆</text>
   </g>
   
-  <!-- Labels -->
-  <g transform="translate(200, 500)">
-    <text x="0" y="0" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">PRACTICAL EXAMPLES</text>
-    <text x="0" y="30" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">Demonstrate loop patterns</text>
-    <text x="0" y="55" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">in real-world scenarios</text>
+  <!-- Example 4: Expert -->
+  <g transform="translate(2100, 450)">
+    <rect x="-200" y="-200" width="400" height="400" fill="#8e44ad" stroke="#7d3c98" stroke-width="5" rx="15"/>
+    <rect x="-188" y="-188" width="376" height="376" fill="white" stroke="#e8daef" stroke-width="2"/>
+    
+    <!-- Header -->
+    <rect x="-188" y="-188" width="376" height="80" fill="#8e44ad"/>
+    <text x="0" y="-135" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white">EXPERT</text>
+    
+    <!-- Icon -->
+    <text x="0" y="-60" text-anchor="middle" font-family="Arial, sans-serif" font-size="50" fill="#8e44ad">4️⃣</text>
+    
+    <!-- Description -->
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2c3e50">Full-Stack Auto-Deploy</text>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">PR + schedule triggers</text>
+    <text x="0" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Multi-source context</text>
+    <text x="0" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Full validation pipeline</text>
+    <text x="0" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Claude Opus + sandbox</text>
+    
+    <!-- 小黑 -->
+    <g transform="translate(0, 180)">
+      <ellipse cx="0" cy="0" rx="35" ry="32" fill="#2c3e50"/>
+      <circle cx="-10" cy="-8" r="5" fill="white"/>
+      <circle cx="10" cy="-8" r="5" fill="white"/>
+      <line x1="-15" y1="32" x2="-18" y2="60" stroke="#2c3e50" stroke-width="5" stroke-linecap="round"/>
+      <line x1="15" y1="32" x2="18" y2="60" stroke="#2c3e50" stroke-width="5" stroke-linecap="round"/>
+    </g>
+    
+    <!-- Complexity indicator -->
+    <text x="0" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#8e44ad">★★★★★</text>
   </g>
   
-  <g transform="translate(1600, 500)">
-    <text x="0" y="0" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">START SIMPLE</text>
-    <text x="0" y="30" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">Daily Triage</text>
-    <text x="0" y="55" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">Changelog Drafter</text>
-  </g>
+  <!-- Progression arrow -->
+  <path d="M 400 700 L 2000 700" fill="none" stroke="#f39c12" stroke-width="6" marker-end="url(#arrowhead)"/>
+  <text x="1200" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#f39c12">Increasing complexity and capability</text>
   
-  <!-- Connection lines between examples -->
-  <line x1="520" y1="350" x2="1400" y2="350" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,5"/>
-  <line x1="520" y1="350" x2="960" y2="750" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,5"/>
-  <line x1="1400" y1="350" x2="960" y2="750" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="5,5"/>
+  <!-- Bottom note -->
+  <text x="1200" y="1250" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#7f8c8d">Start simple, graduate to advanced as your team builds confidence</text>
   
-  <!-- Bottom annotation -->
-  <text x="960" y="1000" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Each example includes: SKILL.md, VISION.md, AGENTS.md, and STATE.md</text>
-  <text x="960" y="1030" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#95a5a6">Adapt, don't copy — these are illustrations, not production configs</text>
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="8" refX="11" refY="4" orient="auto">
+      <polygon points="0 0, 12 4, 0 8" fill="#f39c12"/>
+    </marker>
+  </defs>
 </svg>

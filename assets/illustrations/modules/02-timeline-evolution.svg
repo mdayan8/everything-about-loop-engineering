@@ -1,152 +1,152 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1350">
   <!-- Pure white background -->
   <rect width="100%" height="100%" fill="white"/>
   
   <!-- Title -->
-  <text x="960" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#2c3e50">LOOP ENGINEERING TIMELINE</text>
-  <text x="960" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">From manual prompting to automated loops: the evolution</text>
+  <text x="1200" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#2c3e50">LOOP ENGINEERING TIMELINE</text>
+  <text x="1200" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#7f8c8d">From manual prompting to automated loops: the evolution</text>
   
   <!-- Timeline path -->
-  <path d="M 200 500 Q 400 300 600 500 Q 800 700 1000 500 Q 1200 300 1400 500 Q 1600 700 1800 500" 
-        fill="none" stroke="#f39c12" stroke-width="6" stroke-dasharray="12,6"/>
+  <path d="M 250 625 Q 500 375 750 625 Q 1000 875 1250 625 Q 1500 375 1750 625 Q 2000 875 2250 625" 
+        fill="none" stroke="#f39c12" stroke-width="8" stroke-dasharray="15,8"/>
   
   <!-- Milestone 1: July 2025 -->
-  <g transform="translate(300, 400)">
-    <circle cx="0" cy="0" r="35" fill="#3498db" stroke="#2980b9" stroke-width="3"/>
-    <text x="0" y="-8" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">RALPH</text>
-    <text x="0" y="10" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#d6eaf8">LOOP</text>
+  <g transform="translate(375, 500)">
+    <circle cx="0" cy="0" r="45" fill="#3498db" stroke="#2980b9" stroke-width="4"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">RALPH</text>
+    <text x="0" y="12" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#d6eaf8">LOOP</text>
     
     <!-- 小黑 at milestone -->
-    <g transform="translate(0, 60)">
+    <g transform="translate(0, 75)">
       <!-- Body -->
-      <ellipse cx="0" cy="0" rx="20" ry="18" fill="#2c3e50"/>
+      <ellipse cx="0" cy="0" rx="28" ry="25" fill="#2c3e50"/>
       <!-- Eyes -->
-      <circle cx="-6" cy="-4" r="3" fill="white"/>
-      <circle cx="6" cy="-4" r="3" fill="white"/>
+      <circle cx="-8" cy="-5" r="4" fill="white"/>
+      <circle cx="8" cy="-5" r="4" fill="white"/>
       <!-- Legs -->
-      <line x1="-8" y1="18" x2="-10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
-      <line x1="8" y1="18" x2="10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+      <line x1="-12" y1="25" x2="-14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+      <line x1="12" y1="25" x2="14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
     </g>
     
     <!-- Label -->
-    <text x="0" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#3498db">July 2025</text>
-    <text x="0" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Geoffrey Huntley</text>
-    <text x="0" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">"Ralph Wiggum as</text>
-    <text x="0" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">a Software Engineer"</text>
-    <text x="0" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">✓ Manual while loop</text>
+    <text x="0" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#3498db">July 2025</text>
+    <text x="0" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Geoffrey Huntley</text>
+    <text x="0" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">"Ralph Wiggum as</text>
+    <text x="0" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">a Software Engineer"</text>
+    <text x="0" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#27ae60">✓ Manual while loop</text>
   </g>
   
   <!-- Milestone 2: September 2025 -->
-  <g transform="translate(600, 600)">
-    <circle cx="0" cy="0" r="35" fill="#2ecc71" stroke="#27ae60" stroke-width="3"/>
-    <text x="0" y="-8" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">3 MONTH</text>
-    <text x="0" y="10" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#d5f5e3">STRESS TEST</text>
+  <g transform="translate(750, 750)">
+    <circle cx="0" cy="0" r="45" fill="#2ecc71" stroke="#27ae60" stroke-width="4"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">3 MONTH</text>
+    <text x="0" y="12" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#d5f5e3">STRESS TEST</text>
     
     <!-- 小黑 at milestone -->
-    <g transform="translate(0, 60)">
+    <g transform="translate(0, 75)">
       <!-- Body -->
-      <ellipse cx="0" cy="0" rx="20" ry="18" fill="#2c3e50"/>
+      <ellipse cx="0" cy="0" rx="28" ry="25" fill="#2c3e50"/>
       <!-- Eyes -->
-      <circle cx="-6" cy="-4" r="3" fill="white"/>
-      <circle cx="6" cy="-4" r="3" fill="white"/>
+      <circle cx="-8" cy="-5" r="4" fill="white"/>
+      <circle cx="8" cy="-5" r="4" fill="white"/>
       <!-- Legs -->
-      <line x1="-8" y1="18" x2="-10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
-      <line x1="8" y1="18" x2="10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+      <line x1="-12" y1="25" x2="-14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+      <line x1="12" y1="25" x2="14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
     </g>
     
     <!-- Label -->
-    <text x="0" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2ecc71">September 2025</text>
-    <text x="0" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Ran unattended for 3 months</text>
-    <text x="0" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Built CURSED language</text>
-    <text x="0" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">✓ Proved the pattern works</text>
+    <text x="0" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2ecc71">September 2025</text>
+    <text x="0" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Ran unattended for 3 months</text>
+    <text x="0" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Built CURSED language</text>
+    <text x="0" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#27ae60">✓ Proved the pattern works</text>
   </g>
   
   <!-- Milestone 3: January 2026 -->
-  <g transform="translate(900, 400)">
-    <circle cx="0" cy="0" r="35" fill="#f39c12" stroke="#e67e22" stroke-width="3"/>
-    <text x="0" y="-8" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">EVERYTHING</text>
-    <text x="0" y="10" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fdebd0">IS A RALPH</text>
+  <g transform="translate(1125, 500)">
+    <circle cx="0" cy="0" r="45" fill="#f39c12" stroke="#e67e22" stroke-width="4"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">EVERYTHING</text>
+    <text x="0" y="12" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#fdebd0">IS A RALPH</text>
     
     <!-- 小黑 at milestone -->
-    <g transform="translate(0, 60)">
+    <g transform="translate(0, 75)">
       <!-- Body -->
-      <ellipse cx="0" cy="0" rx="20" ry="18" fill="#2c3e50"/>
+      <ellipse cx="0" cy="0" rx="28" ry="25" fill="#2c3e50"/>
       <!-- Eyes -->
-      <circle cx="-6" cy="-4" r="3" fill="white"/>
-      <circle cx="6" cy="-4" r="3" fill="white"/>
+      <circle cx="-8" cy="-5" r="4" fill="white"/>
+      <circle cx="8" cy="-5" r="4" fill="white"/>
       <!-- Legs -->
-      <line x1="-8" y1="18" x2="-10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
-      <line x1="8" y1="18" x2="10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+      <line x1="-12" y1="25" x2="-14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+      <line x1="12" y1="25" x2="14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
     </g>
     
     <!-- Label -->
-    <text x="0" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#f39c12">January 2026</text>
-    <text x="0" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">"Everything is a Ralph loop"</text>
-    <text x="0" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Pattern becoming default</text>
-    <text x="0" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">✓ Pattern recognized</text>
+    <text x="0" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#f39c12">January 2026</text>
+    <text x="0" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">"Everything is a Ralph loop"</text>
+    <text x="0" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Pattern becoming default</text>
+    <text x="0" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#27ae60">✓ Pattern recognized</text>
   </g>
   
   <!-- Milestone 4: Early-Mid 2026 -->
-  <g transform="translate(1200, 600)">
-    <circle cx="0" cy="0" r="35" fill="#9b59b6" stroke="#8e44ad" stroke-width="3"/>
-    <text x="0" y="-8" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">OFFICIAL</text>
-    <text x="0" y="10" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#e8daef">PLUGINS</text>
+  <g transform="translate(1500, 750)">
+    <circle cx="0" cy="0" r="45" fill="#9b59b6" stroke="#8e44ad" stroke-width="4"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">OFFICIAL</text>
+    <text x="0" y="12" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#e8daef">PLUGINS</text>
     
     <!-- 小黑 at milestone -->
-    <g transform="translate(0, 60)">
+    <g transform="translate(0, 75)">
       <!-- Body -->
-      <ellipse cx="0" cy="0" rx="20" ry="18" fill="#2c3e50"/>
+      <ellipse cx="0" cy="0" rx="28" ry="25" fill="#2c3e50"/>
       <!-- Eyes -->
-      <circle cx="-6" cy="-4" r="3" fill="white"/>
-      <circle cx="6" cy="-4" r="3" fill="white"/>
+      <circle cx="-8" cy="-5" r="4" fill="white"/>
+      <circle cx="8" cy="-5" r="4" fill="white"/>
       <!-- Legs -->
-      <line x1="-8" y1="18" x2="-10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
-      <line x1="8" y1="18" x2="10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+      <line x1="-12" y1="25" x2="-14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+      <line x1="12" y1="25" x2="14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
     </g>
     
     <!-- Label -->
-    <text x="0" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#9b59b6">Early-Mid 2026</text>
-    <text x="0" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Daisy Hollman, Boris Cherny</text>
-    <text x="0" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Claude Code plugins</text>
-    <text x="0" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">✓ Official integration</text>
+    <text x="0" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#9b59b6">Early-Mid 2026</text>
+    <text x="0" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Daisy Hollman, Boris Cherny</text>
+    <text x="0" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Claude Code plugins</text>
+    <text x="0" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#27ae60">✓ Official integration</text>
   </g>
   
   <!-- Milestone 5: June 2026 -->
-  <g transform="translate(1500, 400)">
-    <circle cx="0" cy="0" r="35" fill="#e74c3c" stroke="#c0392b" stroke-width="3"/>
-    <text x="0" y="-8" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">LOOP</text>
-    <text x="0" y="10" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fadbd8">ENGINEERING</text>
+  <g transform="translate(1875, 500)">
+    <circle cx="0" cy="0" r="45" fill="#e74c3c" stroke="#c0392b" stroke-width="4"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">LOOP</text>
+    <text x="0" y="12" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#fadbd8">ENGINEERING</text>
     
     <!-- 小黑 at milestone -->
-    <g transform="translate(0, 60)">
+    <g transform="translate(0, 75)">
       <!-- Body -->
-      <ellipse cx="0" cy="0" rx="20" ry="18" fill="#2c3e50"/>
+      <ellipse cx="0" cy="0" rx="28" ry="25" fill="#2c3e50"/>
       <!-- Eyes -->
-      <circle cx="-6" cy="-4" r="3" fill="white"/>
-      <circle cx="6" cy="-4" r="3" fill="white"/>
+      <circle cx="-8" cy="-5" r="4" fill="white"/>
+      <circle cx="8" cy="-5" r="4" fill="white"/>
       <!-- Legs -->
-      <line x1="-8" y1="18" x2="-10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
-      <line x1="8" y1="18" x2="10" y2="35" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+      <line x1="-12" y1="25" x2="-14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+      <line x1="12" y1="25" x2="14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
     </g>
     
     <!-- Label -->
-    <text x="0" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#e74c3c">June 2026</text>
-    <text x="0" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Addy Osmani names it</text>
-    <text x="0" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">"Loop Engineering"</text>
-    <text x="0" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">✓ Field named & structured</text>
+    <text x="0" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#e74c3c">June 2026</text>
+    <text x="0" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Addy Osmani names it</text>
+    <text x="0" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">"Loop Engineering"</text>
+    <text x="0" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#27ae60">✓ Field named & structured</text>
   </g>
   
   <!-- Direction arrow -->
-  <path d="M 200 750 L 1800 750" fill="none" stroke="#2c3e50" stroke-width="3" marker-end="url(#arrowhead)"/>
-  <text x="1000" y="800" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">From manual to automated</text>
+  <path d="M 250 950 L 2250 950" fill="none" stroke="#2c3e50" stroke-width="4" marker-end="url(#arrowhead)"/>
+  <text x="1250" y="1000" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#7f8c8d">From manual to automated</text>
   
   <!-- Arrow marker -->
   <defs>
-    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#2c3e50"/>
+    <marker id="arrowhead" markerWidth="12" markerHeight="8" refX="11" refY="4" orient="auto">
+      <polygon points="0 0, 12 4, 0 8" fill="#2c3e50"/>
     </marker>
   </defs>
   
   <!-- Bottom quote -->
-  <text x="960" y="900" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">"My job is to write loops." — Boris Cherny, head of Claude Code at Anthropic</text>
+  <text x="1200" y="1150" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#7f8c8d">"My job is to write loops." — Boris Cherny, head of Claude Code at Anthropic</text>
 </svg>

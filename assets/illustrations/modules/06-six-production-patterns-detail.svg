@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1350">
+  <!-- Pure white background -->
+  <rect width="100%" height="100%" fill="white"/>
+  
+  <!-- Title -->
+  <text x="1200" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#2c3e50">THE SIX PRODUCTION PATTERNS</text>
+  <text x="1200" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#7f8c8d">Battle-tested loop patterns from low-cost to high-frequency</text>
+  
+  <!-- Pattern 1: Daily Triage -->
+  <g transform="translate(300, 400)">
+    <rect x="-200" y="-150" width="400" height="300" fill="#3498db" stroke="#2980b9" stroke-width="5" rx="15"/>
+    <rect x="-188" y="-138" width="376" height="276" fill="white" stroke="#d6eaf8" stroke-width="2"/>
+    
+    <!-- Header -->
+    <rect x="-188" y="-138" width="376" height="70" fill="#3498db"/>
+    <text x="0" y="-88" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white">DAILY TRIAGE</text>
+    
+    <!-- Icon -->
+    <text x="0" y="-20" text-anchor="middle" font-family="Arial, sans-serif" font-size="50" fill="#3498db">📊</text>
+    
+    <!-- Description -->
+    <text x="0" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">Once daily</text>
+    <text x="0" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">L1 • Low cost</text>
+    <text x="0" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Categorize & label issues</text>
+    
+    <!-- 小黑 -->
+    <g transform="translate(0, 150)">
+      <ellipse cx="0" cy="0" rx="28" ry="25" fill="#2c3e50"/>
+      <circle cx="-8" cy="-5" r="4" fill="white"/>
+      <circle cx="8" cy="-5" r="4" fill="white"/>
+      <line x1="-12" y1="25" x2="-14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+      <line x1="12" y1="25" x2="14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  </g>
+  
+  <!-- Pattern 2: Changelog Drafter -->
+  <g transform="translate(750, 400)">
+    <rect x="-200" y="-150" width="400" height="300" fill="#2ecc71" stroke="#27ae60" stroke-width="5" rx="15"/>
+    <rect x="-188" y="-138" width="376" height="276" fill="white" stroke="#d5f5e3" stroke-width="2"/>
+    
+    <!-- Header -->
+    <rect x="-188" y="-138" width="376" height="70" fill="#2ecc71"/>
+    <text x="0" y="-88" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white">CHANGELOG DRAFTER</text>
+    
+    <!-- Icon -->
+    <text x="0" y="-20" text-anchor="middle" font-family="Arial, sans-serif" font-size="50" fill="#2ecc71">📝</text>
+    
+    <!-- Description -->
+    <text x="0" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">Daily</text>
+    <text x="0" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">L1 • Low cost</text>
+    <text x="0" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Auto-generate changelogs</text>
+    
+    <!-- 小黑 -->
+    <g transform="translate(0, 150)">
+      <ellipse cx="0" cy="0" rx="28" ry="25" fill="#2c3e50"/>
+      <circle cx="-8" cy="-5" r="4" fill="white"/>
+      <circle cx="8" cy="-5" r="4" fill="white"/>
+      <line x1="-12" y1="25" x2="-14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+      <line x1="12" y1="25" x2="14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  </g>
+  
+  <!-- Pattern 3: Post-Merge Cleanup -->
+  <g transform="translate(1200, 400)">
+    <rect x="-200" y="-150" width="400" height="300" fill="#9b59b6" stroke="#8e44ad" stroke-width="5" rx="15"/>
+    <rect x="-188" y="-138" width="376" height="276" fill="white" stroke="#e8daef" stroke-width="2"/>
+    
+    <!-- Header -->
+    <rect x="-188" y="-138" width="376" height="70" fill="#9b59b6"/>
+    <text x="0" y="-88" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white">POST-MERGE CLEANUP</text>
+    
+    <!-- Icon -->
+    <text x="0" y="-20" text-anchor="middle" font-family="Arial, sans-serif" font-size="50" fill="#9b59b6">🔄</text>
+    
+    <!-- Description -->
+    <text x="0" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">1-6h after merge</text>
+    <text x="0" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">L1 • Low cost</text>
+    <text x="0" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Clean up merged code</text>
+    
+    <!-- 小黑 -->
+    <g transform="translate(0, 150)">
+      <ellipse cx="0" cy="0" rx="28" ry="25" fill="#2c3e50"/>
+      <circle cx="-8" cy="-5" r="4" fill="white"/>
+      <circle cx="8" cy="-5" r="4" fill="white"/>
+      <line x1="-12" y1="25" x2="-14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+      <line x1="12" y1="25" x2="14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  </g>
+  
+  <!-- Pattern 4: Dependency Sweeper -->
+  <g transform="translate(1650, 400)">
+    <rect x="-200" y="-150" width="400" height="300" fill="#e67e22" stroke="#d35400" stroke-width="5" rx="15"/>
+    <rect x="-188" y="-138" width="376" height="276" fill="white" stroke="#fdebd0" stroke-width="2"/>
+    
+    <!-- Header -->
+    <rect x="-188" y="-138" width="376" height="70" fill="#e67e22"/>
+    <text x="0" y="-88" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white">DEPENDENCY SWEEPER</text>
+    
+    <!-- Icon -->
+    <text x="0" y="-20" text-anchor="middle" font-family="Arial, sans-serif" font-size="50" fill="#e67e22">📦</text>
+    
+    <!-- Description -->
+    <text x="0" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">6h-1d cycle</text>
+    <text x="0" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">L2 • Medium cost</text>
+    <text x="0" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Update dependencies</text>
+    
+    <!-- 小黑 -->
+    <g transform="translate(0, 150)">
+      <ellipse cx="0" cy="0" rx="28" ry="25" fill="#2c3e50"/>
+      <circle cx="-8" cy="-5" r="4" fill="white"/>
+      <circle cx="8" cy="-5" r="4" fill="white"/>
+      <line x1="-12" y1="25" x2="-14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+      <line x1="12" y1="25" x2="14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  </g>
+  
+  <!-- Pattern 5: PR Babysitter -->
+  <g transform="translate(400, 900)">
+    <rect x="-200" y="-150" width="400" height="300" fill="#e74c3c" stroke="#c0392b" stroke-width="5" rx="15"/>
+    <rect x="-188" y="-138" width="376" height="276" fill="white" stroke="#fadbd8" stroke-width="2"/>
+    
+    <!-- Header -->
+    <rect x="-188" y="-138" width="376" height="70" fill="#e74c3c"/>
+    <text x="0" y="-88" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white">PR BABYSITTER</text>
+    
+    <!-- Icon -->
+    <text x="0" y="-20" text-anchor="middle" font-family="Arial, sans-serif" font-size="50" fill="#e74c3c">👶</text>
+    
+    <!-- Description -->
+    <text x="0" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">5-15min cycles</text>
+    <text x="0" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">L1 • High cost</text>
+    <text x="0" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Monitor PRs until merge</text>
+    
+    <!-- 小黑 -->
+    <g transform="translate(0, 150)">
+      <ellipse cx="0" cy="0" rx="28" ry="25" fill="#2c3e50"/>
+      <circle cx="-8" cy="-5" r="4" fill="white"/>
+      <circle cx="8" cy="-5" r="4" fill="white"/>
+      <line x1="-12" y1="25" x2="-14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+      <line x1="12" y1="25" x2="14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  </g>
+  
+  <!-- Pattern 6: CI Sweeper -->
+  <g transform="translate(1000, 900)">
+    <rect x="-200" y="-150" width="400" height="300" fill="#c0392b" stroke="#a93226" stroke-width="5" rx="15"/>
+    <rect x="-188" y="-138" width="376" height="276" fill="white" stroke="#f5b7b1" stroke-width="2"/>
+    
+    <!-- Header -->
+    <rect x="-188" y="-138" width="376" height="70" fill="#c0392b"/>
+    <text x="0" y="-88" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white">CI SWEEPER</text>
+    
+    <!-- Icon -->
+    <text x="0" y="-20" text-anchor="middle" font-family="Arial, sans-serif" font-size="50" fill="#c0392b">🔧</text>
+    
+    <!-- Description -->
+    <text x="0" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">5-15min cycles</text>
+    <text x="0" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">L2 • Very high cost</text>
+    <text x="0" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7f8c8d">Fix CI failures fast</text>
+    
+    <!-- 小黑 -->
+    <g transform="translate(0, 150)">
+      <ellipse cx="0" cy="0" rx="28" ry="25" fill="#2c3e50"/>
+      <circle cx="-8" cy="-5" r="4" fill="white"/>
+      <circle cx="8" cy="-5" r="4" fill="white"/>
+      <line x1="-12" y1="25" x2="-14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+      <line x1="12" y1="25" x2="14" y2="48" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  </g>
+  
+  <!-- Cost indicator -->
+  <g transform="translate(2100, 650)">
+    <text x="0" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">COST</text>
+    <rect x="-60" y="20" width="120" height="40" fill="#27ae60" stroke="#229954" stroke-width="3" rx="8"/>
+    <text x="0" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="white">LOW</text>
+    <rect x="-60" y="70" width="120" height="40" fill="#f39c12" stroke="#e67e22" stroke-width="3" rx="8"/>
+    <text x="0" y="98" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="white">MEDIUM</text>
+    <rect x="-60" y="120" width="120" height="40" fill="#e74c3c" stroke="#c0392b" stroke-width="3" rx="8"/>
+    <text x="0" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="white">HIGH</text>
+  </g>
+  
+  <!-- Bottom recommendation -->
+  <text x="1200" y="1250" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#7f8c8d">Start with Changelog Drafter or Daily Triage — lowest risk, immediate value</text>
+</svg>
